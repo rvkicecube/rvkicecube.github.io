@@ -11,13 +11,13 @@ toc: false
 
 ## Experience Magic: The Gathering Like Never Before
 
-Welcome to Iceland's most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík.
+Welcome to Reykjavík's Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík.
 :::
 
 ::: {.event-banner .column-screen}
 ::: {.event-content}
 ::: {.event-date}
-October 11th, 2024 ❄️
+October 11th, 2025 ❄️
 :::
 
 ::: {.event-title}
@@ -75,16 +75,13 @@ Each draft features a different cube experience, from balanced beginner-friendly
 
 ## Getting Started
 
-Whether you're a seasoned cube drafter or new to the format, IceCube Reykjavík welcomes you! Here's what you need to know:
+New to cube draft? No problem! Here's what you need to know:
 
 -   **No collection required** - All cards are provided
--   **All skill levels welcome** - We support both new and experienced players
--   **Competitive yet friendly** - Focus on fun and improvement
--   **Regular events** - Multiple opportunities throughout the year
+-   **All skill levels welcome** - From beginners to veterans
+-   **Regular events** - Thursday evenings plus special tournaments
 
-## Join the Community
-
-Ready to experience the magic? [Join our Facebook group](https://www.facebook.com/groups/mtgkubbur/) to stay updated on events and more!
+Ready to join? [Visit our Facebook group](https://www.facebook.com/groups/mtgkubbur/) to stay updated on events!
 
 :::
 

@@ -37,7 +37,6 @@ format:
   html:
     theme: 
       light: [cosmo, theme.scss]
-      dark: [cosmo, theme.scss]
     css: styles.css
     toc: true
     toc-location: right

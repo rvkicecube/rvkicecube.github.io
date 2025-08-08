@@ -39,57 +39,23 @@ We're proud to represent Iceland in the global Magic community and showcase our 
 
 ## Our Cubes
 
-Currently, we're developing our signature cube that will feature:
+We maintain multiple carefully curated cubes, each designed to provide unique and engaging draft experiences. From beginner-friendly environments to high-powered vintage cubes, our collection offers something for every player.
 
-- **Balanced Archetypes**: Multiple viable strategies across all colors
-- **Skill Rewards**: Cards that reward tight play and deep game knowledge  
-- **Interactive Games**: Emphasis on decisions and player interaction
-- **Iconic Cards**: Including some of Magic's most beloved and powerful spells
+*For detailed information about our cube philosophy and individual cube lists, visit our [Cubes page](cubes.qmd).*
 
-### Cube Philosophy
-Our cube design emphasizes:
-- **Power Level**: High but not broken
-- **Interactivity**: Promotes engaging games with meaningful decisions
-- **Diversity**: Multiple viable archetypes and strategies
-- **Accessibility**: Understandable for newer players while rewarding expertise
 
-## Format & Structure
+## Join Our Community
 
-### Event Format
-- **Swiss Rounds**: Number of rounds based on attendance
-- **Top 8 Playoffs**: Single elimination bracket for top performers
-- **Prize Support**: Attractive prizes for all participants
+### All Skill Levels Welcome
+Whether you're new to cube draft or a seasoned veteran, IceCube Reykjavík welcomes you! We provide:
 
-### What to Expect
-- **3-Pack Draft**: Standard cube draft structure
-- **Best of 3 Matches**: Competitive Magic format
-- **Friendly Competition**: Serious play in a welcoming environment
-- **Deck Registration**: Professional tournament organization
+- **Beginner Support**: Guidance for newcomers to cube drafting
+- **Competitive Play**: Challenging matches for experienced players  
+- **All Materials Provided**: Just bring yourself - we supply everything else
+- **Learning Environment**: Share knowledge and improve together
 
-## Getting Involved
-
-### For New Players
-- No cube draft experience? No problem! We welcome all skill levels
-- We provide guidance and support for newcomers to the format
-- All cards are provided - just bring yourself and basic lands if you have them
-
-### For Experienced Players  
-- Challenge yourself against Iceland's best Magic players
-- Help us refine and improve our cube through feedback
-- Share your knowledge with newer players in our community
-
-### For Content Creators
-- We welcome coverage of our events
-- Decklists and results will be published for the community
-- Contact us about collaboration opportunities
-
-## Contact & Community
-
-Ready to join the IceCube community? Here's how to get involved:
-
-- **Follow our events** - Stay updated on upcoming tournaments
-- **Join the discussion** - Share feedback and suggestions
-- **Spread the word** - Help grow the Icelandic Magic community
+### Get Involved
+Ready to experience cube draft in Iceland? [Join our Facebook group](https://www.facebook.com/groups/mtgkubbur/) to stay updated on events, connect with the community, and reserve your spot at upcoming tournaments.
 
 ---
 

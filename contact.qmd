@@ -1,11 +1,34 @@
 ---
-title: "Contact Us"
+title: "Contact & Community"
 toc: false
 ---
 
-The best way to contact us or stay updated on events and more is to join our [Facebook group](https://www.facebook.com/groups/mtgkubbur/)
+## Stay Connected
 
+The best way to stay updated on IceCube Reykjavík events and connect with our community:
 
+### 📘 Facebook Group
+[Join our Facebook Group](https://www.facebook.com/groups/mtgkubbur/) - Our primary hub for:
 
+- Event announcements and registration
+- Community discussions and strategy talks
+- Cube feedback and suggestions
+- Tournament results and highlights
 
+### 📅 Event Updates
+- Regular cube drafts typically held Thursday evenings
+- Special events announced with advance notice
+- Follow our Facebook group for the latest schedule
+
+### 🏪 Venues
+
+**Next Level Gaming, Egilshöll**  
+Our primary venue for major events including CubeCon
+
+**Nexus, Glæsibær**  
+Secondary location for regular drafts
+
+---
+
+*Questions about cube draft? Want to suggest improvements to our cubes? Ready to join Iceland's premier Magic: The Gathering cube community? We'd love to hear from you!*
 
