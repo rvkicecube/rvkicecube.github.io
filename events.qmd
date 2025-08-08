@@ -6,15 +6,15 @@ subtitle: "Upcoming and past IceCube Reykjavík tournaments"
 ## Upcoming Events
 
 ::: {.event-card}
-### 🧊 IceCube Draft #1 - Inaugural Event
-**Date:** October 11th, 2024  
+### 🧊 CubeCon Reykjavík 2025
+**Date:** October 11th, 2025  
 **Time:** Full Day Event (details below)  
 **Location:** Next Level Gaming, Egilshöll  
 **Format:** Multi-format cube extravaganza  
 **Entry Fee:** 6000 ISK  
 **Prize Support:** Prizes for top placing players
 
-This will be our very first event! Join us for the launch of Iceland's premier cube draft community. A full day of cube drafting across multiple formats - this is what we've been building towards!
+This will be our very first CubeCon event! Join us for the launch of Iceland's premier cube draft community. A full day of cube drafting across multiple formats - this is what we've been building towards!
 
 ### 📅 Event Schedule
 
@@ -37,13 +37,13 @@ This will be our very first event! Join us for the launch of Iceland's premier c
 
 **What to bring:**
 - Dice or counters for tracking life
+- Playmat (if you have one)
 - Your enthusiasm for great Magic!
 
 **Special Features:**
 - Multiple cube experiences in one day
 - Progression from casual to competitive
-- Vintage cube for seasoned players
-- All skill levels welcome in morning/afternoon sessions
+- Side events for players to play in between rounds and during top 8
 :::
 
 ## Event Format
@@ -59,7 +59,6 @@ This will be our very first event! Join us for the launch of Iceland's premier c
 2. **Pack Opening**: Each player receives 3 booster packs (15 cards each)
 3. **Drafting**: Standard booster draft rules - pick 1, pass the rest
 4. **Deck Building**: 40-card minimum deck construction (30 minutes)
-5. **Registration**: Quick deck registration for tournament integrity
 
 ## Venue Information
 
@@ -78,9 +77,7 @@ Next Level Gaming is Reykjavík's premier gaming destination, offering the perfe
 - **Complete Cubes**: All cards needed for drafting (multiple cube variants)
 - **Basic Lands**: Full sets of all five basic land types
 - **Tokens**: Common creature and other tokens
-- **Scoresheets**: For tracking your matches
-- **Prize Support**: For all participants
-- **Food & Drinks**: Light refreshments available throughout the day
+- **Playmats**: We'll have some large playmats available for use
 
 ## Rules & Guidelines
 
@@ -99,45 +96,4 @@ Next Level Gaming is Reykjavík's premier gaming destination, offering the perfe
 ## Registration
 
 ### How to Register
-Registration details will be announced closer to each event. We recommend following our social media for the latest updates.
-
-### What to Expect
-- **Registration Period**: Typically opens 1-2 weeks before each event
-- **Limited Spots**: Events may fill up, so register early!
-- **Confirmation**: You'll receive confirmation of your registration
-- **Updates**: Any changes will be communicated promptly
-
-## Prize Structure
-
-While specific prizes vary by event, our typical structure includes:
-
-### Participation Prizes
-- All players receive something for participating
-- Special recognition for notable achievements
-
-### Performance Prizes
-- **1st Place**: Premium prize package
-- **Top 8**: Attractive prizes for all playoff participants  
-- **Swiss Performance**: Additional prizes for strong Swiss records
-
-### Special Recognition
-- **Best Deck**: Most innovative or well-built deck
-- **Best Sport**: Outstanding sportsmanship award
-- **Judge's Choice**: Special recognition at judge discretion
-
-## Past Events
-
-*This section will be updated as we host our first events. Check back soon for results, decklists, and highlights from our tournaments!*
-
----
-
-## Stay Updated
-
-Want to be the first to know about upcoming events?
-
-- **Follow us on social media** for instant updates
-- **Join our mailing list** for event announcements  
-- **Bookmark this page** and check back regularly
-- **Tell your friends** - the more players, the better the events!
-
-Ready to draft some cubes? We can't wait to see you at our first event! ❄️🎯
+Registration details will be announced closer to each event. We recommend following our [Facebook group](https://www.facebook.com/groups/mtgkubbur/) for the latest updates.
