@@ -7,19 +7,44 @@ subtitle: "Upcoming and past IceCube Reykjavík tournaments"
 
 ::: {.event-card}
 ### 🧊 IceCube Draft #1 - Inaugural Event
-**Date:** Coming Soon!  
-**Time:** TBA  
-**Location:** Reykjavík (venue to be announced)  
-**Format:** Swiss rounds + Top 8 single elimination  
+**Date:** October 11th, 2024  
+**Time:** Full Day Event (details below)  
+**Location:** Next Level Gaming, Egilshöll  
+**Format:** Multi-format cube extravaganza  
 **Entry Fee:** TBA  
 **Prize Support:** Attractive prizes for all participants
 
-This will be our very first event! Join us for the launch of Iceland's premier cube draft community. All skill levels welcome.
+This will be our very first event! Join us for the launch of Iceland's premier cube draft community. A full day of cube drafting across multiple formats - this is what we've been building towards!
+
+### 📅 Event Schedule
+
+**Morning Session (10:00 AM - 1:00 PM)**
+- Swiss Cube Draft #1
+- 3 rounds of Swiss play
+- Casual, skill-building focused
+
+**Afternoon Session (2:00 PM - 5:00 PM)**  
+- Swiss Cube Draft #2
+- 3 rounds of Swiss play
+- More competitive atmosphere
+
+**Evening Session (6:00 PM - 9:00 PM)**
+- **Top 8 Vintage Cube Draft**
+- Single elimination playoffs
+- High-power vintage cube experience
+- Reserved for top performers from Swiss rounds
 
 **What to bring:**
 - Basic lands (if you have them - we'll provide if needed)
 - Dice or counters for tracking life
+- Snacks and drinks for the full day
 - Your enthusiasm for great Magic!
+
+**Special Features:**
+- Multiple cube experiences in one day
+- Progression from casual to competitive
+- Vintage cube for seasoned players
+- All skill levels welcome in morning/afternoon sessions
 :::
 
 ## Event Format
@@ -37,13 +62,26 @@ This will be our very first event! Join us for the launch of Iceland's premier c
 4. **Deck Building**: 40-card minimum deck construction (30 minutes)
 5. **Registration**: Quick deck registration for tournament integrity
 
+## Venue Information
+
+### Next Level Gaming, Egilshöll
+
+Next Level Gaming is Reykjavík's premier gaming destination, offering the perfect environment for our inaugural cube draft event. Located in Egilshöll, the venue provides:
+
+- **Spacious Gaming Area**: Ample room for multiple draft pods
+- **Professional Setup**: Quality tables and comfortable seating
+- **Excellent Lighting**: Perfect for reading cards and gameplay
+- **Accessible Location**: Easy to reach with parking available
+- **Gaming Atmosphere**: Surrounded by fellow gamers and enthusiasts
+
 ## What We Provide
 
-- **Complete Cube**: All cards needed for drafting
+- **Complete Cubes**: All cards needed for drafting (multiple cube variants)
 - **Basic Lands**: Full sets of all five basic land types
 - **Tokens**: Common creature and other tokens
 - **Scoresheets**: For tracking your matches
 - **Prize Support**: For all participants
+- **Food & Drinks**: Light refreshments available throughout the day
 
 ## Rules & Guidelines
 

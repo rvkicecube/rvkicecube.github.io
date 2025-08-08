@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Events – IceCube Reykjavík</title>
+<title>Our Cubes – IceCube Reykjavík</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +73,79 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-cube-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-creator','listing-image','listing-description','listing-power_level','listing-card_count','listing-format','listing-url',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-creator","listing-image","listing-description","listing-power_level","listing-card_count","listing-format","listing-url"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-cube-listing'] = new List('listing-cube-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -264,11 +338,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cubes.html"> 
+    <a class="nav-link active" href="./cubes.html" aria-current="page"> 
 <span class="menu-text">Cubes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./events.html" aria-current="page"> 
+    <a class="nav-link" href="./events.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
@@ -303,35 +377,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#upcoming-events" id="toc-upcoming-events" class="nav-link active" data-scroll-target="#upcoming-events">Upcoming Events</a></li>
-  <li><a href="#event-format" id="toc-event-format" class="nav-link" data-scroll-target="#event-format">Event Format</a>
+  <li><a href="#cube-collection" id="toc-cube-collection" class="nav-link active" data-scroll-target="#cube-collection">Cube Collection</a></li>
+  <li><a href="#cube-philosophy" id="toc-cube-philosophy" class="nav-link" data-scroll-target="#cube-philosophy">Cube Philosophy</a>
   <ul class="collapse">
-  <li><a href="#standard-tournament-structure" id="toc-standard-tournament-structure" class="nav-link" data-scroll-target="#standard-tournament-structure">Standard Tournament Structure</a></li>
-  <li><a href="#draft-process" id="toc-draft-process" class="nav-link" data-scroll-target="#draft-process">Draft Process</a></li>
+  <li><a href="#balanced-archetypes" id="toc-balanced-archetypes" class="nav-link" data-scroll-target="#balanced-archetypes">🎯 <strong>Balanced Archetypes</strong></a></li>
+  <li><a href="#skill-rewarding" id="toc-skill-rewarding" class="nav-link" data-scroll-target="#skill-rewarding">⚖️ <strong>Skill Rewarding</strong></a></li>
+  <li><a href="#high-replayability" id="toc-high-replayability" class="nav-link" data-scroll-target="#high-replayability">🔄 <strong>High Replayability</strong></a></li>
+  <li><a href="#tournament-ready" id="toc-tournament-ready" class="nav-link" data-scroll-target="#tournament-ready">🏆 <strong>Tournament Ready</strong></a></li>
   </ul></li>
-  <li><a href="#venue-information" id="toc-venue-information" class="nav-link" data-scroll-target="#venue-information">Venue Information</a>
-  <ul class="collapse">
-  <li><a href="#next-level-gaming-egilshöll" id="toc-next-level-gaming-egilshöll" class="nav-link" data-scroll-target="#next-level-gaming-egilshöll">Next Level Gaming, Egilshöll</a></li>
-  </ul></li>
-  <li><a href="#what-we-provide" id="toc-what-we-provide" class="nav-link" data-scroll-target="#what-we-provide">What We Provide</a></li>
-  <li><a href="#rules-guidelines" id="toc-rules-guidelines" class="nav-link" data-scroll-target="#rules-guidelines">Rules &amp; Guidelines</a>
-  <ul class="collapse">
-  <li><a href="#tournament-rules" id="toc-tournament-rules" class="nav-link" data-scroll-target="#tournament-rules">Tournament Rules</a></li>
-  <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link" data-scroll-target="#code-of-conduct">Code of Conduct</a></li>
-  </ul></li>
-  <li><a href="#registration" id="toc-registration" class="nav-link" data-scroll-target="#registration">Registration</a>
-  <ul class="collapse">
-  <li><a href="#how-to-register" id="toc-how-to-register" class="nav-link" data-scroll-target="#how-to-register">How to Register</a></li>
-  <li><a href="#what-to-expect" id="toc-what-to-expect" class="nav-link" data-scroll-target="#what-to-expect">What to Expect</a></li>
-  </ul></li>
-  <li><a href="#prize-structure" id="toc-prize-structure" class="nav-link" data-scroll-target="#prize-structure">Prize Structure</a>
-  <ul class="collapse">
-  <li><a href="#participation-prizes" id="toc-participation-prizes" class="nav-link" data-scroll-target="#participation-prizes">Participation Prizes</a></li>
-  <li><a href="#performance-prizes" id="toc-performance-prizes" class="nav-link" data-scroll-target="#performance-prizes">Performance Prizes</a></li>
-  <li><a href="#special-recognition" id="toc-special-recognition" class="nav-link" data-scroll-target="#special-recognition">Special Recognition</a></li>
-  </ul></li>
-  <li><a href="#past-events" id="toc-past-events" class="nav-link" data-scroll-target="#past-events">Past Events</a></li>
-  <li><a href="#stay-updated" id="toc-stay-updated" class="nav-link" data-scroll-target="#stay-updated">Stay Updated</a></li>
+  <li><a href="#cube-maintenance" id="toc-cube-maintenance" class="nav-link" data-scroll-target="#cube-maintenance">Cube Maintenance</a></li>
   </ul>
 </nav>
     </div>
@@ -341,8 +395,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Events</h1>
-<p class="subtitle lead">Upcoming and past IceCube Reykjavík tournaments</p>
+<h1 class="title">Our Cubes</h1>
+<p class="subtitle lead">Discover the carefully curated cube environments at IceCube Reykjavík</p>
 </div>
 
 
@@ -359,158 +413,303 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="upcoming-events" class="level2">
-<h2 class="anchored" data-anchor-id="upcoming-events">Upcoming Events</h2>
-<div class="event-card">
-<section id="icecube-draft-1---inaugural-event" class="level3">
-<h3 class="anchored" data-anchor-id="icecube-draft-1---inaugural-event">🧊 IceCube Draft #1 - Inaugural Event</h3>
-<p><strong>Date:</strong> October 11th, 2024<br>
-<strong>Time:</strong> Full Day Event (details below)<br>
-<strong>Location:</strong> Next Level Gaming, Egilshöll<br>
-<strong>Format:</strong> Multi-format cube extravaganza<br>
-<strong>Entry Fee:</strong> TBA<br>
-<strong>Prize Support:</strong> Attractive prizes for all participants</p>
-<p>This will be our very first event! Join us for the launch of Iceland’s premier cube draft community. A full day of cube drafting across multiple formats - this is what we’ve been building towards!</p>
-</section>
-<section id="event-schedule" class="level3">
-<h3 class="anchored" data-anchor-id="event-schedule">📅 Event Schedule</h3>
-<p><strong>Morning Session (10:00 AM - 1:00 PM)</strong> - Swiss Cube Draft #1 - 3 rounds of Swiss play - Casual, skill-building focused</p>
-<p><strong>Afternoon Session (2:00 PM - 5:00 PM)</strong><br>
-- Swiss Cube Draft #2 - 3 rounds of Swiss play - More competitive atmosphere</p>
-<p><strong>Evening Session (6:00 PM - 9:00 PM)</strong> - <strong>Top 8 Vintage Cube Draft</strong> - Single elimination playoffs - High-power vintage cube experience - Reserved for top performers from Swiss rounds</p>
-<p><strong>What to bring:</strong> - Basic lands (if you have them - we’ll provide if needed) - Dice or counters for tracking life - Snacks and drinks for the full day - Your enthusiasm for great Magic!</p>
-<p><strong>Special Features:</strong> - Multiple cube experiences in one day - Progression from casual to competitive - Vintage cube for seasoned players - All skill levels welcome in morning/afternoon sessions</p>
-</section>
+<section id="cube-collection" class="level2">
+<h2 class="anchored" data-anchor-id="cube-collection">Cube Collection</h2>
+<p>Welcome to our cube showcase! Each cube represents hundreds of hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.</p>
+<div id="listing-cube-listing" class="quarto-listing quarto-listing-container-custom">
+<div class="cubes-grid">
+
+  <div class="cube-card">
+    
+    <div class="cube-image">
+      <img src="https://cards.scryfall.io/art_crop/front/1/c/1cfdd410-391b-4b71-8139-f5a30653097a.jpg?1562259658" alt="Modern Cube" class="cube-art">
+    </div>
+    
+    
+    <div class="cube-header">
+      <div class="cube-title-section">
+        <h3 class="cube-name anchored">Modern Cube</h3>
+        
+        <p class="cube-creator">Created by <strong>Diddi</strong></p>
+        
+      </div>
+      <div class="cube-badges">
+        <span class="badge power-level medium">Medium Power</span>
+        
+      </div>
+    </div>
+    
+    <div class="cube-description">
+      <p>Do you find yourself thinking 'I wish this card was still playable in modern'? This is the cube for you!</p>
+    </div>
+    
+    <div class="cube-details">
+      <div class="detail-row">
+        <span class="detail-label">📦 Cards:</span>
+        <span class="detail-value">540</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">🎭 Format:</span>
+        <span class="detail-value">Modern</span>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="cube-actions">
+      <a href="https://cubecobra.com/cube/overview/563f11e1-1852-42db-9651-506ca3c67691" target="_blank" rel="noopener noreferrer" class="cube-link">
+        View on CubeCobra →
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="cube-card">
+    
+    <div class="cube-image">
+      <img src="https://cards.scryfall.io/art_crop/front/3/d/3d946df5-f206-4241-bb55-97db67dc793c.jpg?1562546549" alt="Turbo Cube" class="cube-art">
+    </div>
+    
+    
+    <div class="cube-header">
+      <div class="cube-title-section">
+        <h3 class="cube-name anchored">Turbo Cube</h3>
+        
+        <p class="cube-creator">Created by <strong>Bóas</strong></p>
+        
+      </div>
+      <div class="cube-badges">
+        <span class="badge power-level very high">Very High Power</span>
+        
+      </div>
+    </div>
+    
+    <div class="cube-description">
+      <p>In this cube everything is 3 off (including abilities). This leads to a lot of interesting interactions and a lot of fun games.</p>
+    </div>
+    
+    <div class="cube-details">
+      <div class="detail-row">
+        <span class="detail-label">📦 Cards:</span>
+        <span class="detail-value">639</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">🎭 Format:</span>
+        <span class="detail-value">Eternal</span>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="cube-actions">
+      <a href="https://cubecobra.com/cube/overview/8bac27ad-a191-4dfe-8a7d-a705c9e1b576" target="_blank" rel="noopener noreferrer" class="cube-link">
+        View on CubeCobra →
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="cube-card">
+    
+    <div class="cube-image">
+      <img src="https://cards.scryfall.io/art_crop/front/b/7/b7320233-1c83-4f61-8c08-cc8361867256.jpg?1591228265" alt="Synergy Cube" class="cube-art">
+    </div>
+    
+    
+    <div class="cube-header">
+      <div class="cube-title-section">
+        <h3 class="cube-name anchored">Synergy Cube</h3>
+        
+        <p class="cube-creator">Created by <strong>Tómas</strong></p>
+        
+      </div>
+      <div class="cube-badges">
+        <span class="badge power-level medium">Medium Power</span>
+        
+      </div>
+    </div>
+    
+    <div class="cube-description">
+      <p>In this cube synergistic decks should beat out those trying to go for good-stuff strategies</p>
+    </div>
+    
+    <div class="cube-details">
+      <div class="detail-row">
+        <span class="detail-label">📦 Cards:</span>
+        <span class="detail-value">417</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">🎭 Format:</span>
+        <span class="detail-value">Eternal</span>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="cube-actions">
+      <a href="https://cubecobra.com/cube/overview/SynergyNotSpeed" target="_blank" rel="noopener noreferrer" class="cube-link">
+        View on CubeCobra →
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="cube-card">
+    
+    <div class="cube-image">
+      <img src="https://cards.scryfall.io/art_crop/front/2/d/2dd41293-d7c8-4422-9f0c-b3e96350f5c9.jpg?1559592144" alt="Bolti (Vintage Cube)" class="cube-art">
+    </div>
+    
+    
+    <div class="cube-header">
+      <div class="cube-title-section">
+        <h3 class="cube-name anchored">Bolti (Vintage Cube)</h3>
+        
+        <p class="cube-creator">Created by <strong>Hjalti</strong></p>
+        
+      </div>
+      <div class="cube-badges">
+        <span class="badge power-level high">High Power</span>
+        
+      </div>
+    </div>
+    
+    <div class="cube-description">
+      <p>Do you like vintage cube? Do you like Hjalti? Then this is the cube for you!</p>
+    </div>
+    
+    <div class="cube-details">
+      <div class="detail-row">
+        <span class="detail-label">📦 Cards:</span>
+        <span class="detail-value">542</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">🎭 Format:</span>
+        <span class="detail-value">Eternal</span>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="cube-actions">
+      <a href="https://cubecobra.com/cube/overview/bolti-mtgovintage" target="_blank" rel="noopener noreferrer" class="cube-link">
+        View on CubeCobra →
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="cube-card">
+    
+    <div class="cube-image">
+      <img src="https://cards.scryfall.io/art_crop/front/3/d/3d19d950-9e63-4b15-8531-f4b16f5b82fa.jpg?1562828211" alt="Binni's Cube" class="cube-art">
+    </div>
+    
+    
+    <div class="cube-header">
+      <div class="cube-title-section">
+        <h3 class="cube-name anchored">Binni's Cube</h3>
+        
+        <p class="cube-creator">Created by <strong>Binni</strong></p>
+        
+      </div>
+      <div class="cube-badges">
+        <span class="badge power-level unknown">Unknown Power</span>
+        
+      </div>
+    </div>
+    
+    <div class="cube-description">
+      <p>This cube was built by Tómas using leftover and beloved cards from Binni's collection as a gift. Is it a cube? Yes. What does it do? I don't know.</p>
+    </div>
+    
+    <div class="cube-details">
+      <div class="detail-row">
+        <span class="detail-label">📦 Cards:</span>
+        <span class="detail-value">360</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">🎭 Format:</span>
+        <span class="detail-value">Eternal</span>
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="cube-actions">
+      <a href="https://cubecobra.com/cube/overview/7e6323d1-a602-49c8-ae2e-2195d9c2eccb" target="_blank" rel="noopener noreferrer" class="cube-link">
+        View on CubeCobra →
+      </a>
+    </div>
+    
+  </div>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="event-format" class="level2">
-<h2 class="anchored" data-anchor-id="event-format">Event Format</h2>
-<section id="standard-tournament-structure" class="level3">
-<h3 class="anchored" data-anchor-id="standard-tournament-structure">Standard Tournament Structure</h3>
-<ul>
-<li><strong>Swiss Rounds</strong>: Number of rounds determined by attendance (typically 3-4 rounds)</li>
-<li><strong>Top 8 Playoffs</strong>: Single elimination bracket for top performers</li>
-<li><strong>Match Format</strong>: Best of 3 games</li>
-<li><strong>Time Limits</strong>: 50 minutes per round</li>
-</ul>
+<section id="cube-philosophy" class="level2">
+<h2 class="anchored" data-anchor-id="cube-philosophy">Cube Philosophy</h2>
+<p>Our cube designs follow core principles that ensure every draft is memorable:</p>
+<section id="balanced-archetypes" class="level3">
+<h3 class="anchored" data-anchor-id="balanced-archetypes">🎯 <strong>Balanced Archetypes</strong></h3>
+<p>Each cube supports multiple viable strategies across all color combinations, ensuring no single approach dominates the draft environment.</p>
 </section>
-<section id="draft-process" class="level3">
-<h3 class="anchored" data-anchor-id="draft-process">Draft Process</h3>
-<ol type="1">
-<li><strong>Seat Assignment</strong>: Random seating for each pod (8 players)</li>
-<li><strong>Pack Opening</strong>: Each player receives 3 booster packs (15 cards each)</li>
-<li><strong>Drafting</strong>: Standard booster draft rules - pick 1, pass the rest</li>
-<li><strong>Deck Building</strong>: 40-card minimum deck construction (30 minutes)</li>
-<li><strong>Registration</strong>: Quick deck registration for tournament integrity</li>
-</ol>
+<section id="skill-rewarding" class="level3">
+<h3 class="anchored" data-anchor-id="skill-rewarding">⚖️ <strong>Skill Rewarding</strong></h3>
+<p>Cards are chosen to reward tight play, deep game knowledge, and strategic thinking while remaining accessible to newer players.</p>
 </section>
+<section id="high-replayability" class="level3">
+<h3 class="anchored" data-anchor-id="high-replayability">🔄 <strong>High Replayability</strong></h3>
+<p>Every draft feels fresh thanks to carefully balanced card interactions and multiple viable paths to victory.</p>
 </section>
-<section id="venue-information" class="level2">
-<h2 class="anchored" data-anchor-id="venue-information">Venue Information</h2>
-<section id="next-level-gaming-egilshöll" class="level3">
-<h3 class="anchored" data-anchor-id="next-level-gaming-egilshöll">Next Level Gaming, Egilshöll</h3>
-<p>Next Level Gaming is Reykjavík’s premier gaming destination, offering the perfect environment for our inaugural cube draft event. Located in Egilshöll, the venue provides:</p>
-<ul>
-<li><strong>Spacious Gaming Area</strong>: Ample room for multiple draft pods</li>
-<li><strong>Professional Setup</strong>: Quality tables and comfortable seating</li>
-<li><strong>Excellent Lighting</strong>: Perfect for reading cards and gameplay</li>
-<li><strong>Accessible Location</strong>: Easy to reach with parking available</li>
-<li><strong>Gaming Atmosphere</strong>: Surrounded by fellow gamers and enthusiasts</li>
-</ul>
-</section>
-</section>
-<section id="what-we-provide" class="level2">
-<h2 class="anchored" data-anchor-id="what-we-provide">What We Provide</h2>
-<ul>
-<li><strong>Complete Cubes</strong>: All cards needed for drafting (multiple cube variants)</li>
-<li><strong>Basic Lands</strong>: Full sets of all five basic land types</li>
-<li><strong>Tokens</strong>: Common creature and other tokens</li>
-<li><strong>Scoresheets</strong>: For tracking your matches</li>
-<li><strong>Prize Support</strong>: For all participants</li>
-<li><strong>Food &amp; Drinks</strong>: Light refreshments available throughout the day</li>
-</ul>
-</section>
-<section id="rules-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="rules-guidelines">Rules &amp; Guidelines</h2>
-<section id="tournament-rules" class="level3">
-<h3 class="anchored" data-anchor-id="tournament-rules">Tournament Rules</h3>
-<ul>
-<li><strong>REL</strong>: Regular Rules Enforcement Level</li>
-<li><strong>Judges</strong>: Experienced judges available for questions</li>
-<li><strong>Deck Checks</strong>: Random deck checks may occur</li>
-<li><strong>No Outside Cards</strong>: Only cards from the current draft may be used</li>
-</ul>
-</section>
-<section id="code-of-conduct" class="level3">
-<h3 class="anchored" data-anchor-id="code-of-conduct">Code of Conduct</h3>
-<ul>
-<li><strong>Respect</strong>: Treat all players, judges, and organizers with respect</li>
-<li><strong>Sportsmanship</strong>: Win graciously, lose with dignity</li>
-<li><strong>Fair Play</strong>: No cheating, stalling, or unsporting behavior</li>
-<li><strong>Inclusivity</strong>: Welcoming environment for players of all backgrounds</li>
-</ul>
-</section>
-</section>
-<section id="registration" class="level2">
-<h2 class="anchored" data-anchor-id="registration">Registration</h2>
-<section id="how-to-register" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-register">How to Register</h3>
-<p>Registration details will be announced closer to each event. We recommend following our social media for the latest updates.</p>
-</section>
-<section id="what-to-expect" class="level3">
-<h3 class="anchored" data-anchor-id="what-to-expect">What to Expect</h3>
-<ul>
-<li><strong>Registration Period</strong>: Typically opens 1-2 weeks before each event</li>
-<li><strong>Limited Spots</strong>: Events may fill up, so register early!</li>
-<li><strong>Confirmation</strong>: You’ll receive confirmation of your registration</li>
-<li><strong>Updates</strong>: Any changes will be communicated promptly</li>
-</ul>
-</section>
-</section>
-<section id="prize-structure" class="level2">
-<h2 class="anchored" data-anchor-id="prize-structure">Prize Structure</h2>
-<p>While specific prizes vary by event, our typical structure includes:</p>
-<section id="participation-prizes" class="level3">
-<h3 class="anchored" data-anchor-id="participation-prizes">Participation Prizes</h3>
-<ul>
-<li>All players receive something for participating</li>
-<li>Special recognition for notable achievements</li>
-</ul>
-</section>
-<section id="performance-prizes" class="level3">
-<h3 class="anchored" data-anchor-id="performance-prizes">Performance Prizes</h3>
-<ul>
-<li><strong>1st Place</strong>: Premium prize package</li>
-<li><strong>Top 8</strong>: Attractive prizes for all playoff participants<br>
-</li>
-<li><strong>Swiss Performance</strong>: Additional prizes for strong Swiss records</li>
-</ul>
-</section>
-<section id="special-recognition" class="level3">
-<h3 class="anchored" data-anchor-id="special-recognition">Special Recognition</h3>
-<ul>
-<li><strong>Best Deck</strong>: Most innovative or well-built deck</li>
-<li><strong>Best Sport</strong>: Outstanding sportsmanship award</li>
-<li><strong>Judge’s Choice</strong>: Special recognition at judge discretion</li>
-</ul>
-</section>
-</section>
-<section id="past-events" class="level2">
-<h2 class="anchored" data-anchor-id="past-events">Past Events</h2>
-<p><em>This section will be updated as we host our first events. Check back soon for results, decklists, and highlights from our tournaments!</em></p>
+<section id="tournament-ready" class="level3">
+<h3 class="anchored" data-anchor-id="tournament-ready">🏆 <strong>Tournament Ready</strong></h3>
+<p>All cubes are designed with competitive play in mind, providing engaging games that test players’ skills fairly.</p>
 <hr>
 </section>
-<section id="stay-updated" class="level2">
-<h2 class="anchored" data-anchor-id="stay-updated">Stay Updated</h2>
-<p>Want to be the first to know about upcoming events?</p>
+</section>
+<section id="cube-maintenance" class="level2">
+<h2 class="anchored" data-anchor-id="cube-maintenance">Cube Maintenance</h2>
+<p>We take pride in maintaining our cubes to the highest standards:</p>
 <ul>
-<li><strong>Follow us on social media</strong> for instant updates</li>
-<li><strong>Join our mailing list</strong> for event announcements<br>
-</li>
-<li><strong>Bookmark this page</strong> and check back regularly</li>
-<li><strong>Tell your friends</strong> - the more players, the better the events!</li>
+<li><strong>Regular Updates</strong>: Cubes are regularly reviewed and updated with new cards and balance changes</li>
+<li><strong>Community Input</strong>: We welcome feedback from players to improve our cube designs</li>
+<li><strong>Professional Sleeves</strong>: All cards are professionally sleeved and maintained</li>
+<li><strong>Transparent Lists</strong>: Complete cube lists are available for study and preparation</li>
 </ul>
-<p>Ready to draft some cubes? We can’t wait to see you at our first event! ❄️🎯</p>
+<p><em>Want to suggest cards or provide feedback on our cubes? Check out our <a href="./contact.html">Contact page</a> for ways to get involved!</em></p>
+
 
 
 </section>

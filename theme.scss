@@ -509,4 +509,325 @@ table {
   .hero-logo {
     width: 150px !important; // Smaller logo on mobile
   }
+  
+  .cubes-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .cube-card {
+    .cube-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding-top: 1.5rem;
+      
+      .cube-badges {
+        margin-left: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+    
+    > * {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      
+      &:first-child {
+        padding: 0;
+      }
+      
+      &:last-child {
+        padding-bottom: 1.5rem;
+      }
+    }
+    
+    .cube-image {
+      height: 150px;
+    }
+  }
+}
+
+// Cube listing styles
+.cubes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.cube-card {
+  background: $arctic-white;
+  border: 2px solid $ice-blue;
+  border-radius: $border-radius-lg;
+  padding: 0;
+  box-shadow: $box-shadow;
+  transition: $transition-base;
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $glacier-blue 0%, $ice-blue 100%);
+    z-index: 1;
+  }
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $box-shadow-lg;
+    border-color: $glacier-blue;
+  }
+}
+
+.cube-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: $border-radius-lg $border-radius-lg 0 0;
+  
+  .cube-art {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: $transition-base;
+  }
+  
+  &:hover .cube-art {
+    transform: scale(1.05);
+  }
+}
+
+.cube-card > * {
+  padding: 0 2rem;
+  
+  &:first-child {
+    padding: 0;
+  }
+  
+  &:last-child {
+    padding-bottom: 2rem;
+  }
+}
+
+.cube-header {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  
+  .cube-title-section {
+    flex: 1;
+    
+    .cube-name {
+      color: $deep-blue;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem 0;
+    }
+    
+    .cube-creator {
+      color: $frost-gray;
+      font-size: 0.9rem;
+      margin: 0;
+      font-style: italic;
+      
+      strong {
+        color: $glacier-blue;
+        font-weight: 600;
+      }
+    }
+  }
+  
+  .cube-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 1rem;
+  }
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: $border-radius-sm;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  
+  &.power-level {
+    &.low {
+      background-color: rgba($success, 0.1);
+      color: $success;
+      border: 1px solid $success;
+    }
+    
+    &.medium {
+      background-color: rgba($warning, 0.1);
+      color: $warning;
+      border: 1px solid $warning;
+    }
+    
+    &.high {
+      background-color: rgba($danger, 0.1);
+      color: $danger;
+      border: 1px solid $danger;
+    }
+    
+    &.vintage {
+      background-color: rgba($deep-blue, 0.1);
+      color: $deep-blue;
+      border: 1px solid $deep-blue;
+    }
+
+    &.very-high {
+      background-color: rgba($danger, 0.1);
+      color: $danger;
+      border: 1px solid $danger;
+    }
+
+    &.unknown {
+      background-color: rgba($frost-gray, 0.1);
+      color: $frost-gray;
+      border: 1px solid $frost-gray;
+    }
+  }
+  
+  &.status {
+    &.active {
+      background-color: rgba($success, 0.1);
+      color: $success;
+      border: 1px solid $success;
+    }
+    
+    &.development {
+      background-color: rgba($warning, 0.1);
+      color: $warning;
+      border: 1px solid $warning;
+    }
+    
+    &.retired {
+      background-color: rgba($frost-gray, 0.1);
+      color: $frost-gray;
+      border: 1px solid $frost-gray;
+    }
+  }
+}
+
+.cube-description {
+  margin-bottom: 1.5rem;
+  
+  p {
+    color: $frost-gray;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
+
+.cube-details {
+  margin-bottom: 1.5rem;
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba($ice-blue, 0.3);
+    
+    &:last-child {
+      border-bottom: none;
+    }
+    
+    .detail-label {
+      font-weight: 500;
+      color: $midnight-blue;
+    }
+    
+    .detail-value {
+      color: $glacier-blue;
+      font-weight: 600;
+    }
+  }
+}
+
+.cube-archetypes, .cube-features {
+  margin-bottom: 1.5rem;
+  
+  h4 {
+    color: $deep-blue;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.75rem 0;
+  }
+  
+  .archetype-list, .feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      padding: 0.25rem 0;
+      color: $frost-gray;
+      position: relative;
+      padding-left: 1rem;
+      
+      &::before {
+        content: "▸";
+        position: absolute;
+        left: 0;
+        color: $glacier-blue;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.cube-notes {
+  border-top: 1px solid rgba($ice-blue, 0.3);
+  padding-top: 1rem;
+  margin-top: 1rem;
+  
+  .notes-text {
+    color: $frost-gray;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}
+
+.cube-actions {
+  border-top: 1px solid rgba($ice-blue, 0.3);
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  
+  .cube-link {
+    display: inline-block;
+    background: linear-gradient(135deg, $glacier-blue 0%, $deep-blue 100%);
+    color: $snow-white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: $border-radius;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: $transition-base;
+    box-shadow: $box-shadow-sm;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: $box-shadow;
+      color: $snow-white;
+      text-decoration: none;
+    }
+    
+    &:focus {
+      outline: 2px solid $glacier-blue;
+      outline-offset: 2px;
+    }
+  }
 }
