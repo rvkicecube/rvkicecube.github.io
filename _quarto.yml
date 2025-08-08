@@ -5,7 +5,7 @@ project:
 website:
   title: "IceCube Reykjavík"
   description: "Magic: The Gathering Cube Draft Event in Iceland"
-  site-url: "https://rvkicecube.iss"
+  site-url: "https://rvkicecube.is"
   
   navbar:
     search: true
@@ -27,7 +27,7 @@ website:
         aria-label: GitHub
 
   page-footer:
-    left: "© 2024 IceCube Reykjavík"
+    left: "© 2025 IceCube Reykjavík"
     right: 
       - icon: github
         href: https://github.com/rvkicecube/rvkicecube.github.io
@@ -41,7 +41,6 @@ format:
     toc: true
     toc-location: right
     code-fold: true
-    html-math-method: katex
 
 editor: source
 engine: knitr

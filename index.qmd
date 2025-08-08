@@ -7,11 +7,11 @@ toc: false
 ::: {.hero-banner .column-screen}
 ![](images/logo_white-bg.png){fig-alt="IceCube Reykjavík Logo" width="200px" .hero-logo}
 
-# IceCube Reykjavík ❄️🧊
+# IceCube Reykjavík ❄️
 
-## Experience Magic: The Gathering Like Never Before
+## Reykjavík's Cube Draft Community
 
-Welcome to Reykjavík's Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík.
+Draft carefully curated Magic cards with passionate players in Iceland's capital. From Thursday night regulars to our inaugural CubeCon tournament, we're building something special here.
 :::
 
 ::: {.event-banner .column-screen}
@@ -42,12 +42,14 @@ IceCube Reykjavík is a Magic: The Gathering cube draft event series held in Rey
 ### 🎯 Our Mission
 
 -   **Foster Community**: Build a welcoming and inclusive environment for Magic players of all skill levels
--   **Celebrate the Game**: Showcase the depth and complexity of Magic through expertly designed cube experiences\
--   **Promote Competition**: Provide competitive yet friendly tournaments with exciting prizes
+-   **Celebrate the Game**: Showcase the depth and complexity of Magic through expertly designed cube experiences
+-   **Promote Competition**: Provide competitive yet friendly tournaments
 -   **Share Knowledge**: Help players improve their draft and gameplay skills
 
+::: {.events-section}
 ## Upcoming Events
 
+::: {.featured-event}
 ### CubeCon Reykjavík 2025
 
 -   **Date**: October 11th, 2025
@@ -58,6 +60,8 @@ IceCube Reykjavík is a Magic: The Gathering cube draft event series held in Rey
 *Our inaugural CubeCon event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!*
 
 [View Full Event Details](events.qmd){.btn .btn-primary}
+:::
+
 
 -------------------------------------------------------------------------
 
@@ -70,7 +74,9 @@ We host regular cube drafts throughout the month, typically on Thursday evenings
 
 Each draft features a different cube experience, from balanced beginner-friendly environments to high-powered vintage cubes. Pre-registration is recommended but walk-ins are welcome when space permits.
 
-*For the latest schedule and to reserve your spot, join our Facebook group using the link at the bottom of this page.*
+*For announcements on upcoming events and to reserve your spot, [join our Facebook group](https://www.facebook.com/groups/mtgkubbur/).*
+
+:::
 
 
 ## Getting Started
