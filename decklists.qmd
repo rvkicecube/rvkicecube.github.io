@@ -1,0 +1,104 @@
+---
+title: "Decklists"
+subtitle: "Winning decks and notable builds from IceCube events"
+---
+
+## Featured Decklists
+
+*This section will showcase winning and notable decklists from our tournaments once we begin hosting events. Check back after our first tournament for exciting deck techs and analysis!*
+
+## What to Expect
+
+Once our events begin, this page will feature:
+
+### 🏆 Winning Decklists
+- **Tournament Winners**: Complete decklists from 1st place finishers
+- **Top 8 Decks**: Notable decks that made the playoffs
+- **Undefeated Swiss**: Perfect records from Swiss rounds
+
+### 📊 Deck Analysis
+- **Archetype Breakdown**: Analysis of successful strategies
+- **Card Choices**: Discussion of key inclusions and omissions
+- **Pilot Interviews**: Insights from successful players
+
+### 📈 Meta Insights
+- **Color Combinations**: Most successful draft strategies
+- **Key Cards**: Highest performing cards in each archetype
+- **Draft Patterns**: Successful drafting approaches
+
+## Deck Submission
+
+Did you pilot an interesting deck at one of our events? We'd love to feature it!
+
+### Submission Guidelines
+- **Complete Decklists**: Main deck and sideboard (if applicable)
+- **Tournament Results**: How the deck performed
+- **Brief Description**: Key strategies and card choices
+- **Pilot Notes**: What worked well, what didn't
+
+### What We're Looking For
+- **Innovative Builds**: Creative takes on established archetypes
+- **Successful Brews**: New strategies that performed well
+- **Educational Value**: Decks that teach important lessons
+- **Interesting Stories**: Decks with memorable games or moments
+
+## Archetype Guides
+
+*Coming soon: Detailed guides for common cube archetypes, including:*
+
+### Aggro Strategies
+- **Red Deck Wins**: Fast, burn-heavy strategies
+- **White Weenie**: Efficient creatures and support spells
+- **Tempo Decks**: Mixing aggression with disruption
+
+### Midrange Decks
+- **Goodstuff Midrange**: High-quality threats and answers
+- **Tribal Synergies**: Creature-type based strategies
+- **Planeswalker Control**: Building around powerful walkers
+
+### Control Archetypes
+- **Draw-Go Control**: Classic counterspell-based control
+- **Sweeper Control**: Board wipe focused strategies
+- **Combo-Control**: Protecting and assembling combos
+
+### Synergy Decks
+- **Graveyard Strategies**: Reanimator and delve strategies
+- **Artifact Synergies**: Building around powerful artifacts
+- **Storm/Spell-Based**: High spell velocity strategies
+
+## Draft Strategy
+
+### General Principles
+- **Stay Open Early**: Don't commit to colors too quickly
+- **Value Versatility**: Cards that fit multiple archetypes
+- **Curve Considerations**: Balanced mana curve is crucial
+- **Fixing Priority**: Good mana is essential for success
+
+### Reading Signals
+- **Pack 1**: Identify open colors and archetypes
+- **Pack 2**: Solidify your strategy and colors
+- **Pack 3**: Fine-tune curve and fill gaps
+
+### Common Mistakes
+- **Forcing Archetypes**: Going into unavailable strategies
+- **Ignoring Curve**: Too many expensive spells
+- **Poor Fixing**: Trying to play too many colors
+- **Sideboard Neglect**: Not preparing for specific matchups
+
+## Cube Design Philosophy
+
+Understanding our cube helps improve your drafting:
+
+### Power Level
+- **Balanced**: No single strategy dominates
+- **Interactive**: Emphasis on decision-making
+- **Diverse**: Multiple viable approaches
+
+### Archetype Support
+- **Clear Signals**: Obvious archetype markers
+- **Adequate Depth**: Enough cards for each strategy
+- **Balanced Support**: No overloaded archetypes
+
+---
+
+*Ready to contribute to our decklist database? Play in an event and submit your innovative builds! We're excited to see what the Icelandic Magic community creates.* 🧊📝

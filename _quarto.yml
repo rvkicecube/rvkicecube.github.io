@@ -1,21 +1,61 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "rvkicecube.github.io"
+  title: "IceCube Reykjavík"
+  description: "Magic: The Gathering Cube Draft Event in Iceland"
+  site-url: "https://rvkicecube.github.io"
+  
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: events.qmd
+        text: Events
+      - href: decklists.qmd
+        text: Decklists
+      - href: contact.qmd
+        text: Contact
+    
+    right:
+      - icon: github
+        href: https://github.com/rvkicecube/rvkicecube.github.io
+        aria-label: GitHub
+  
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Navigation"
+        contents:
+          - index.qmd
+          - about.qmd
+          - events.qmd
+          - decklists.qmd
+          - contact.qmd
+
+  page-footer:
+    left: "© 2024 IceCube Reykjavík"
+    right: 
+      - icon: github
+        href: https://github.com/rvkicecube/rvkicecube.github.io
+        aria-label: GitHub
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: 
+      light: [cosmo, styles.css]
+      dark: [cosmo, styles.css]
     css: styles.css
     toc: true
+    toc-location: right
+    code-fold: true
+    html-math-method: katex
 
-editor: visual
-
+editor: source
+engine: knitr

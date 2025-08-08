@@ -1,11 +1,75 @@
 ---
-title: "rvkicecube.github.io"
+title: "Welcome to IceCube Reykjavík"
+subtitle: "Iceland's Premier Magic: The Gathering Cube Draft Experience"
+page-layout: full
+title-block-banner: true
 ---
 
-This is a Quarto website.
+::: hero-banner
+# IceCube Reykjavík ❄️🧊
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Experience Magic: The Gathering Like Never Before
 
-```{r}
-1 + 1
-```
+Welcome to Iceland's most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík.
+:::
+
+## What is IceCube Reykjavík?
+
+IceCube Reykjavík is a premier Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players from across the country and beyond to experience carefully curated cube environments that showcase the best of Magic's history.
+
+### 🎯 Our Mission
+
+-   **Foster Community**: Build a welcoming and inclusive environment for Magic players of all skill levels
+-   **Celebrate the Game**: Showcase the depth and complexity of Magic through expertly designed cube experiences\
+-   **Promote Competition**: Provide competitive yet friendly tournaments with exciting prizes
+-   **Share Knowledge**: Help players improve their draft and gameplay skills
+
+## What Makes Us Special?
+
+:::::: grid
+::: g-col-md-4
+### 🧊 Expertly Curated Cubes
+
+Our cubes are meticulously designed to provide balanced, skill-testing draft environments that highlight Magic's greatest cards and mechanics.
+:::
+
+::: g-col-md-4
+### 🏆 Competitive Events
+
+Regular tournaments with Swiss rounds, top 8 playoffs, and attractive prize support for players of all levels.
+:::
+
+::: g-col-md-4
+### 🌟 Community Focus
+
+A welcoming atmosphere where new players can learn and experienced players can share their knowledge and passion.
+:::
+::::::
+
+## Upcoming Events
+
+### Next Event: IceCube Draft #1
+
+-   **Date**: Coming Soon!
+-   **Location**: Reykjavík (venue TBA)
+-   **Format**: Swiss + Top 8
+-   **Entry**: Details coming soon
+
+*Stay tuned for our inaugural event announcement!*
+
+## Getting Started
+
+Whether you're a seasoned cube drafter or new to the format, IceCube Reykjavík welcomes you! Here's what you need to know:
+
+-   **No collection required** - All cards are provided
+-   **All skill levels welcome** - We support both new and experienced players
+-   **Competitive yet friendly** - Focus on fun and improvement
+-   **Regular events** - Multiple opportunities throughout the year
+
+## Join the Community
+
+Ready to experience the magic? Follow us on social media and join our community to stay updated on events, decklists, and more!
+
+------------------------------------------------------------------------
+
+*IceCube Reykjavík - Where Icelandic Magic meets world-class cube drafting* ❄️

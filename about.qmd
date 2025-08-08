@@ -1,9 +1,96 @@
 ---
-title: "About"
+title: "About IceCube Reykjavík"
+subtitle: "Learn more about our cube draft community"
 ---
 
-About this site
+## What is Cube Draft?
 
-```{r}
-1 + 1
-```
+Cube draft is one of Magic: The Gathering's most beloved and skill-intensive formats. Unlike booster draft where you open random packs, cube draft uses a carefully curated collection of cards (called a "cube") that provides a unique and balanced draft experience every time.
+
+### Key Features of Cube Draft:
+
+- **Singleton Format**: Only one copy of each card in the cube
+- **Curated Experience**: Every card is hand-picked for power level and synergy
+- **Skill-Testing**: Rewards deep knowledge of Magic and drafting technique
+- **Replayable**: The same cube creates different experiences each draft
+- **Vintage Cards**: Often includes powerful cards from Magic's history
+
+## Our Story
+
+IceCube Reykjavík was founded by passionate Magic players who wanted to bring the cube draft experience to Iceland. Recognizing the lack of regular cube events in the country, we set out to create a community where players could experience this incredible format.
+
+### Our Vision
+
+We believe cube draft represents Magic at its finest - a format that rewards skill, knowledge, and creativity while providing endless replayability. Our goal is to make this amazing experience accessible to all Magic players in Iceland and beyond.
+
+## The IceCube Philosophy
+
+### 🎯 Competitive Excellence
+We strive to provide tournament-level cube experiences with carefully maintained cards, professional organization, and fair competition.
+
+### 🤝 Community Building  
+Magic is best when shared. We foster an inclusive environment where players can learn from each other and build lasting friendships.
+
+### 📚 Education & Growth
+We believe in helping players improve their skills through cube draft, one of Magic's most educational formats.
+
+### 🏔️ Icelandic Pride
+We're proud to represent Iceland in the global Magic community and showcase our unique perspective on the game.
+
+## Our Cubes
+
+Currently, we're developing our signature cube that will feature:
+
+- **Balanced Archetypes**: Multiple viable strategies across all colors
+- **Skill Rewards**: Cards that reward tight play and deep game knowledge  
+- **Interactive Games**: Emphasis on decisions and player interaction
+- **Iconic Cards**: Including some of Magic's most beloved and powerful spells
+
+### Cube Philosophy
+Our cube design emphasizes:
+- **Power Level**: High but not broken
+- **Interactivity**: Promotes engaging games with meaningful decisions
+- **Diversity**: Multiple viable archetypes and strategies
+- **Accessibility**: Understandable for newer players while rewarding expertise
+
+## Format & Structure
+
+### Event Format
+- **Swiss Rounds**: Number of rounds based on attendance
+- **Top 8 Playoffs**: Single elimination bracket for top performers
+- **Prize Support**: Attractive prizes for all participants
+
+### What to Expect
+- **3-Pack Draft**: Standard cube draft structure
+- **Best of 3 Matches**: Competitive Magic format
+- **Friendly Competition**: Serious play in a welcoming environment
+- **Deck Registration**: Professional tournament organization
+
+## Getting Involved
+
+### For New Players
+- No cube draft experience? No problem! We welcome all skill levels
+- We provide guidance and support for newcomers to the format
+- All cards are provided - just bring yourself and basic lands if you have them
+
+### For Experienced Players  
+- Challenge yourself against Iceland's best Magic players
+- Help us refine and improve our cube through feedback
+- Share your knowledge with newer players in our community
+
+### For Content Creators
+- We welcome coverage of our events
+- Decklists and results will be published for the community
+- Contact us about collaboration opportunities
+
+## Contact & Community
+
+Ready to join the IceCube community? Here's how to get involved:
+
+- **Follow our events** - Stay updated on upcoming tournaments
+- **Join the discussion** - Share feedback and suggestions
+- **Spread the word** - Help grow the Icelandic Magic community
+
+---
+
+*IceCube Reykjavík: Where the chill of Iceland meets the heat of competition* ❄️🔥
