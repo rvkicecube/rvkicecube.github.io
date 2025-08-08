@@ -1,250 +1,5 @@
 [
   {
-    "objectID": "decklists.html",
-    "href": "decklists.html",
-    "title": "Decklists",
-    "section": "",
-    "text": "This section will showcase winning and notable decklists from our tournaments once we begin hosting events. Check back after our first tournament for exciting deck techs and analysis!"
-  },
-  {
-    "objectID": "decklists.html#featured-decklists",
-    "href": "decklists.html#featured-decklists",
-    "title": "Decklists",
-    "section": "",
-    "text": "This section will showcase winning and notable decklists from our tournaments once we begin hosting events. Check back after our first tournament for exciting deck techs and analysis!"
-  },
-  {
-    "objectID": "decklists.html#what-to-expect",
-    "href": "decklists.html#what-to-expect",
-    "title": "Decklists",
-    "section": "What to Expect",
-    "text": "What to Expect\nOnce our events begin, this page will feature:\n\n🏆 Winning Decklists\n\nTournament Winners: Complete decklists from 1st place finishers\nTop 8 Decks: Notable decks that made the playoffs\nUndefeated Swiss: Perfect records from Swiss rounds\n\n\n\n📊 Deck Analysis\n\nArchetype Breakdown: Analysis of successful strategies\nCard Choices: Discussion of key inclusions and omissions\nPilot Interviews: Insights from successful players\n\n\n\n📈 Meta Insights\n\nColor Combinations: Most successful draft strategies\nKey Cards: Highest performing cards in each archetype\nDraft Patterns: Successful drafting approaches"
-  },
-  {
-    "objectID": "decklists.html#deck-submission",
-    "href": "decklists.html#deck-submission",
-    "title": "Decklists",
-    "section": "Deck Submission",
-    "text": "Deck Submission\nDid you pilot an interesting deck at one of our events? We’d love to feature it!\n\nSubmission Guidelines\n\nComplete Decklists: Main deck and sideboard (if applicable)\nTournament Results: How the deck performed\nBrief Description: Key strategies and card choices\nPilot Notes: What worked well, what didn’t\n\n\n\nWhat We’re Looking For\n\nInnovative Builds: Creative takes on established archetypes\nSuccessful Brews: New strategies that performed well\nEducational Value: Decks that teach important lessons\nInteresting Stories: Decks with memorable games or moments"
-  },
-  {
-    "objectID": "decklists.html#archetype-guides",
-    "href": "decklists.html#archetype-guides",
-    "title": "Decklists",
-    "section": "Archetype Guides",
-    "text": "Archetype Guides\nComing soon: Detailed guides for common cube archetypes, including:\n\nAggro Strategies\n\nRed Deck Wins: Fast, burn-heavy strategies\nWhite Weenie: Efficient creatures and support spells\nTempo Decks: Mixing aggression with disruption\n\n\n\nMidrange Decks\n\nGoodstuff Midrange: High-quality threats and answers\nTribal Synergies: Creature-type based strategies\nPlaneswalker Control: Building around powerful walkers\n\n\n\nControl Archetypes\n\nDraw-Go Control: Classic counterspell-based control\nSweeper Control: Board wipe focused strategies\nCombo-Control: Protecting and assembling combos\n\n\n\nSynergy Decks\n\nGraveyard Strategies: Reanimator and delve strategies\nArtifact Synergies: Building around powerful artifacts\nStorm/Spell-Based: High spell velocity strategies"
-  },
-  {
-    "objectID": "decklists.html#draft-strategy",
-    "href": "decklists.html#draft-strategy",
-    "title": "Decklists",
-    "section": "Draft Strategy",
-    "text": "Draft Strategy\n\nGeneral Principles\n\nStay Open Early: Don’t commit to colors too quickly\nValue Versatility: Cards that fit multiple archetypes\nCurve Considerations: Balanced mana curve is crucial\nFixing Priority: Good mana is essential for success\n\n\n\nReading Signals\n\nPack 1: Identify open colors and archetypes\nPack 2: Solidify your strategy and colors\nPack 3: Fine-tune curve and fill gaps\n\n\n\nCommon Mistakes\n\nForcing Archetypes: Going into unavailable strategies\nIgnoring Curve: Too many expensive spells\nPoor Fixing: Trying to play too many colors\nSideboard Neglect: Not preparing for specific matchups"
-  },
-  {
-    "objectID": "decklists.html#cube-design-philosophy",
-    "href": "decklists.html#cube-design-philosophy",
-    "title": "Decklists",
-    "section": "Cube Design Philosophy",
-    "text": "Cube Design Philosophy\nUnderstanding our cube helps improve your drafting:\n\nPower Level\n\nBalanced: No single strategy dominates\nInteractive: Emphasis on decision-making\nDiverse: Multiple viable approaches\n\n\n\nArchetype Support\n\nClear Signals: Obvious archetype markers\nAdequate Depth: Enough cards for each strategy\nBalanced Support: No overloaded archetypes\n\n\nReady to contribute to our decklist database? Play in an event and submit your innovative builds! We’re excited to see what the Icelandic Magic community creates. 🧊📝"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "IceCube Reykjavík ❄️🧊",
-    "section": "",
-    "text": "Welcome to Iceland’s most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík."
-  },
-  {
-    "objectID": "index.html#experience-magic-the-gathering-like-never-before",
-    "href": "index.html#experience-magic-the-gathering-like-never-before",
-    "title": "IceCube Reykjavík ❄️🧊",
-    "section": "",
-    "text": "Welcome to Iceland’s most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík."
-  },
-  {
-    "objectID": "index.html#what-is-icecube-reykjavík",
-    "href": "index.html#what-is-icecube-reykjavík",
-    "title": "IceCube Reykjavík ❄️🧊",
-    "section": "What is IceCube Reykjavík?",
-    "text": "What is IceCube Reykjavík?\nIceCube Reykjavík is a Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players to experience carefully curated cube environments that showcase the best of Magic’s history with a personal touch.\n\n🎯 Our Mission\n\nFoster Community: Build a welcoming and inclusive environment for Magic players of all skill levels\nCelebrate the Game: Showcase the depth and complexity of Magic through expertly designed cube experiences\n\nPromote Competition: Provide competitive yet friendly tournaments with exciting prizes\nShare Knowledge: Help players improve their draft and gameplay skills"
-  },
-  {
-    "objectID": "index.html#upcoming-events",
-    "href": "index.html#upcoming-events",
-    "title": "IceCube Reykjavík ❄️🧊",
-    "section": "Upcoming Events",
-    "text": "Upcoming Events\n\nCubeCon Reykjavík 2025\n\nDate: October 11th, 2025\nLocation: Next Level Gaming, Egilshöll\nFormat: Full Day Multi-Format Event\nEntry: 6000 ISK\n\nOur inaugural CubeCon event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!\nView Full Event Details\n\n\n\nRegular Cube Drafts\nWe host regular cube drafts throughout the month, typically on Thursday evenings. Our events rotate between two convenient locations:\n\nNext Level Gaming, Egilshöll\nNexus, Glæsibær\n\nEach draft features a different cube experience, from balanced beginner-friendly environments to high-powered vintage cubes. Pre-registration is recommended but walk-ins are welcome when space permits.\nFor the latest schedule and to reserve your spot, join our Facebook group using the link at the bottom of this page."
-  },
-  {
-    "objectID": "index.html#getting-started",
-    "href": "index.html#getting-started",
-    "title": "IceCube Reykjavík ❄️🧊",
-    "section": "Getting Started",
-    "text": "Getting Started\nWhether you’re a seasoned cube drafter or new to the format, IceCube Reykjavík welcomes you! Here’s what you need to know:\n\nNo collection required - All cards are provided\nAll skill levels welcome - We support both new and experienced players\nCompetitive yet friendly - Focus on fun and improvement\nRegular events - Multiple opportunities throughout the year"
-  },
-  {
-    "objectID": "index.html#join-the-community",
-    "href": "index.html#join-the-community",
-    "title": "IceCube Reykjavík ❄️🧊",
-    "section": "Join the Community",
-    "text": "Join the Community\nReady to experience the magic? Join our Facebook group to stay updated on events and more!"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "Date: October 11th, 2025\nTime: Full Day Event (details below)\nLocation: Next Level Gaming, Egilshöll\nFormat: Multi-format cube extravaganza\nEntry Fee: 6000 ISK\nPrize Support: Prizes for top placing players\nThis will be our very first CubeCon event! Join us for the launch of Iceland’s premier cube draft community. A full day of cube drafting across multiple formats - this is what we’ve been building towards!\n\n\n\nMorning Session (10:00 AM - 1:00 PM) - Swiss Cube Draft #1 - 3 rounds of Swiss play - Casual, exotic cubes, skill-building focused\nAfternoon Session (2:00 PM - 5:00 PM)\n- Swiss Cube Draft #2 - 3 rounds of Swiss play - Record-based pods - Exotic cubes, skill-building focused\nEvening Session (6:00 PM - 9:00 PM) - Top 8 Vintage Cube Draft - Single elimination playoffs - High-power vintage cube experience - Top 8 chosen from records and tie-breakers\nWhat to bring: - Dice or counters for tracking life - Playmat (if you have one) - Your enthusiasm for great Magic!\nSpecial Features: - Multiple cube experiences in one day - Progression from casual to competitive - Side events for players to play in between rounds and during top 8"
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events",
-    "section": "",
-    "text": "Date: October 11th, 2025\nTime: Full Day Event (details below)\nLocation: Next Level Gaming, Egilshöll\nFormat: Multi-format cube extravaganza\nEntry Fee: 6000 ISK\nPrize Support: Prizes for top placing players\nThis will be our very first CubeCon event! Join us for the launch of Iceland’s premier cube draft community. A full day of cube drafting across multiple formats - this is what we’ve been building towards!\n\n\n\nMorning Session (10:00 AM - 1:00 PM) - Swiss Cube Draft #1 - 3 rounds of Swiss play - Casual, exotic cubes, skill-building focused\nAfternoon Session (2:00 PM - 5:00 PM)\n- Swiss Cube Draft #2 - 3 rounds of Swiss play - Record-based pods - Exotic cubes, skill-building focused\nEvening Session (6:00 PM - 9:00 PM) - Top 8 Vintage Cube Draft - Single elimination playoffs - High-power vintage cube experience - Top 8 chosen from records and tie-breakers\nWhat to bring: - Dice or counters for tracking life - Playmat (if you have one) - Your enthusiasm for great Magic!\nSpecial Features: - Multiple cube experiences in one day - Progression from casual to competitive - Side events for players to play in between rounds and during top 8"
-  },
-  {
-    "objectID": "events.html#event-format",
-    "href": "events.html#event-format",
-    "title": "Events",
-    "section": "Event Format",
-    "text": "Event Format\n\nStandard Tournament Structure\n\nSwiss Rounds: Number of rounds determined by attendance (typically 3-4 rounds)\nTop 8 Playoffs: Single elimination bracket for top performers\nMatch Format: Best of 3 games\nTime Limits: 50 minutes per round\n\n\n\nDraft Process\n\nSeat Assignment: Random seating for each pod (8 players)\nPack Opening: Each player receives 3 booster packs (15 cards each)\nDrafting: Standard booster draft rules - pick 1, pass the rest\nDeck Building: 40-card minimum deck construction (30 minutes)"
-  },
-  {
-    "objectID": "events.html#venue-information",
-    "href": "events.html#venue-information",
-    "title": "Events",
-    "section": "Venue Information",
-    "text": "Venue Information\n\nNext Level Gaming, Egilshöll\nNext Level Gaming is Reykjavík’s premier gaming destination, offering the perfect environment for our inaugural cube draft event. Located in Egilshöll, the venue provides:\n\nSpacious Gaming Area: Ample room for multiple draft pods\nProfessional Setup: Quality tables and comfortable seating\nExcellent Lighting: Perfect for reading cards and gameplay\nAccessible Location: Easy to reach with parking available\nGaming Atmosphere: Surrounded by fellow gamers and enthusiasts"
-  },
-  {
-    "objectID": "events.html#what-we-provide",
-    "href": "events.html#what-we-provide",
-    "title": "Events",
-    "section": "What We Provide",
-    "text": "What We Provide\n\nComplete Cubes: All cards needed for drafting (multiple cube variants)\nBasic Lands: Full sets of all five basic land types\nTokens: Common creature and other tokens\nPlaymats: We’ll have some large playmats available for use"
-  },
-  {
-    "objectID": "events.html#rules-guidelines",
-    "href": "events.html#rules-guidelines",
-    "title": "Events",
-    "section": "Rules & Guidelines",
-    "text": "Rules & Guidelines\n\nTournament Rules\n\nREL: Regular Rules Enforcement Level\nJudges: Experienced judges available for questions\nDeck Checks: Random deck checks may occur\nNo Outside Cards: Only cards from the current draft may be used\n\n\n\nCode of Conduct\n\nRespect: Treat all players, judges, and organizers with respect\nSportsmanship: Win graciously, lose with dignity\nFair Play: No cheating, stalling, or unsporting behavior\nInclusivity: Welcoming environment for players of all backgrounds"
-  },
-  {
-    "objectID": "events.html#registration",
-    "href": "events.html#registration",
-    "title": "Events",
-    "section": "Registration",
-    "text": "Registration\n\nHow to Register\nRegistration details will be announced closer to each event. We recommend following our Facebook group for the latest updates."
-  },
-  {
-    "objectID": "events.html#prize-structure",
-    "href": "events.html#prize-structure",
-    "title": "Events",
-    "section": "Prize Structure",
-    "text": "Prize Structure\nWhile specific prizes vary by event, our typical structure includes:\n\nParticipation Prizes\n\nAll players receive something for participating\nSpecial recognition for notable achievements\n\n\n\nPerformance Prizes\n\n1st Place: Premium prize package\nTop 8: Attractive prizes for all playoff participants\n\nSwiss Performance: Additional prizes for strong Swiss records\n\n\n\nSpecial Recognition\n\nBest Deck: Most innovative or well-built deck\nBest Sport: Outstanding sportsmanship award\nJudge’s Choice: Special recognition at judge discretion"
-  },
-  {
-    "objectID": "events.html#past-events",
-    "href": "events.html#past-events",
-    "title": "Events",
-    "section": "Past Events",
-    "text": "Past Events\nThis section will be updated as we host our first events. Check back soon for results, decklists, and highlights from our tournaments!"
-  },
-  {
-    "objectID": "events.html#stay-updated",
-    "href": "events.html#stay-updated",
-    "title": "Events",
-    "section": "Stay Updated",
-    "text": "Stay Updated\nWant to be the first to know about upcoming events?\n\nFollow us on social media for instant updates\nJoin our mailing list for event announcements\n\nBookmark this page and check back regularly\nTell your friends - the more players, the better the events!\n\nReady to draft some cubes? We can’t wait to see you at our first event! ❄️🎯"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "We’d love to hear from you! Whether you have questions about upcoming events, want to provide feedback, or are interested in getting involved with IceCube Reykjavík, we’re here to help."
-  },
-  {
-    "objectID": "contact.html#get-in-touch",
-    "href": "contact.html#get-in-touch",
-    "title": "Contact Us",
-    "section": "",
-    "text": "We’d love to hear from you! Whether you have questions about upcoming events, want to provide feedback, or are interested in getting involved with IceCube Reykjavík, we’re here to help."
-  },
-  {
-    "objectID": "contact.html#contact-information",
-    "href": "contact.html#contact-information",
-    "title": "Contact Us",
-    "section": "Contact Information",
-    "text": "Contact Information\n\nGeneral Inquiries\n\nEmail: [Coming Soon]\nResponse Time: We typically respond within 24-48 hours\n\n\n\nSocial Media\n\nGitHub: rvkicecube\nTwitter: [Coming Soon]\nFacebook: [Coming Soon]\nDiscord: [Coming Soon]"
-  },
-  {
-    "objectID": "contact.html#frequently-asked-questions",
-    "href": "contact.html#frequently-asked-questions",
-    "title": "Contact Us",
-    "section": "Frequently Asked Questions",
-    "text": "Frequently Asked Questions\n\nAbout Events\nQ: How often do you host events?\nA: We’re planning to host regular events throughout the year. The exact frequency will depend on community interest and venue availability.\nQ: Do I need to own Magic cards to participate?\nA: No! All cards are provided as part of the cube draft experience. Just bring yourself and basic lands if you have them.\nQ: What skill level do I need to participate?\nA: All skill levels are welcome! Whether you’re new to Magic or a seasoned veteran, our events are designed to be fun and educational for everyone.\nQ: How much do events cost?\nA: Entry fees vary by event but are kept affordable to encourage participation. Specific pricing will be announced with each event.\n\n\nAbout Cube Draft\nQ: What is cube draft?\nA: Cube draft is a Magic format where players draft from a curated collection of cards rather than random booster packs. It’s considered one of the most skill-intensive and enjoyable ways to play Magic.\nQ: How long do events typically last?\nA: A typical event lasts 4-6 hours, including drafting, deck building, and tournament rounds.\nQ: Can I see the cube list?\nA: We’ll publish our cube list on this website once it’s finalized. Transparency is important to us!\n\n\nGetting Involved\nQ: Can I help organize events?\nA: Absolutely! We’re always looking for volunteers to help with various aspects of event organization. Contact us if you’re interested.\nQ: Do you need judges?\nA: Yes! If you’re a certified judge or interested in judging, we’d love to hear from you.\nQ: Can I contribute to cube design?\nA: We welcome feedback and suggestions from the community. Experienced cube designers are especially encouraged to reach out."
-  },
-  {
-    "objectID": "contact.html#feedback-suggestions",
-    "href": "contact.html#feedback-suggestions",
-    "title": "Contact Us",
-    "section": "Feedback & Suggestions",
-    "text": "Feedback & Suggestions\nWe’re committed to making IceCube Reykjavík the best possible experience for the Icelandic Magic community. Your feedback helps us improve!\n\nWhat We’d Love to Hear About\n\nEvent Experience: How can we make tournaments better?\nCube Design: Suggestions for cards or archetypes\nVenue Preferences: Location and facility feedback\n\nCommunity Building: Ideas for growing our player base\nWebsite Improvements: How can we make this site more useful?\n\n\n\nHow to Provide Feedback\n\nEmail us with detailed suggestions\nJoin our social media discussions\nTalk to us at events\nFill out surveys after participating in events"
-  },
-  {
-    "objectID": "contact.html#venue-location",
-    "href": "contact.html#venue-location",
-    "title": "Contact Us",
-    "section": "Venue & Location",
-    "text": "Venue & Location\n\nEvent Locations\nWe’re currently finalizing venue arrangements for our events. We’re looking for locations in Reykjavík that offer:\n\nAdequate Space: Room for multiple draft pods\nGood Lighting: Important for reading cards\nComfortable Seating: For long tournament days\nAccessibility: Easy to reach by public transport\nParking: Available for those driving\n\n\n\nVenue Suggestions\nKnow a great location for Magic events? We’d love to hear your suggestions! We’re particularly interested in:\n\nGame stores with event space\nCommunity centers with available rooms\nLibraries with meeting spaces\nCafes or restaurants with separate areas"
-  },
-  {
-    "objectID": "contact.html#partnership-opportunities",
-    "href": "contact.html#partnership-opportunities",
-    "title": "Contact Us",
-    "section": "Partnership Opportunities",
-    "text": "Partnership Opportunities\n\nLocal Game Stores\nWe’re interested in partnering with Icelandic game stores to: - Host Events: Use your space for tournaments - Prize Support: Collaborate on prize structures - Community Building: Grow the local Magic scene together - Cross-Promotion: Support each other’s events\n\n\nContent Creators\nAre you a Magic content creator interested in covering our events? We welcome: - Tournament Coverage: Live streaming or recording - Deck Techs: Analysis of winning strategies - Interview Content: Player and organizer interviews - Educational Content: Cube draft strategy videos\n\n\nSponsors\nInterested in supporting IceCube Reykjavík? We offer various sponsorship opportunities: - Event Sponsorship: Support specific tournaments - Prize Sponsorship: Contribute to prize pools - Community Sponsorship: Long-term partnership opportunities"
-  },
-  {
-    "objectID": "contact.html#stay-connected",
-    "href": "contact.html#stay-connected",
-    "title": "Contact Us",
-    "section": "Stay Connected",
-    "text": "Stay Connected\nThe best way to stay updated on IceCube Reykjavík news is to follow us on social media and bookmark this website. We’ll announce all events, updates, and community news through these channels.\nReady to be part of Iceland’s cube draft community? Reach out today! ❄️📧"
-  },
-  {
-    "objectID": "cubes.html",
-    "href": "cubes.html",
-    "title": "Our Cubes",
-    "section": "",
-    "text": "Welcome to our cube showcase! Each cube represents hundreds of hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.\n\n\n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Diddi\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      Do you find yourself thinking 'I wish this card was still playable in modern'? This is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        540\n      \n      \n        🎭 Format:\n        Modern\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Bóas\n        \n      \n      \n        Very High Power\n        \n      \n    \n    \n    \n      In this cube everything is 3 off (including abilities). This leads to a lot of interesting interactions and a lot of fun games.\n    \n    \n    \n      \n        📦 Cards:\n        639\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tómas\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      In this cube synergistic decks should beat out those trying to go for good-stuff strategies\n    \n    \n    \n      \n        📦 Cards:\n        417\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Hjalti\n        \n      \n      \n        Vintage Power\n        \n      \n    \n    \n    \n      Do you like vintage cube? Do you like Hjalti? Then this is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        542\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Binni\n        \n      \n      \n        Unknown Power\n        \n      \n    \n    \n    \n      This cube was built by Tómas using leftover and beloved cards from Binni's collection as a gift. Is it a cube? Yes. What does it do? I don't know.\n    \n    \n    \n      \n        📦 Cards:\n        360\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tommi\n        \n      \n      \n        High Power\n        \n      \n    \n    \n    \n      This is a Legacy-power cube. Is Elder Deep Fiend even in this cube anymore?\n    \n    \n    \n      \n        📦 Cards:\n        473\n      \n      \n        🎭 Format:\n        Legacy\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n\nNo matching items"
-  },
-  {
-    "objectID": "cubes.html#cube-collection",
-    "href": "cubes.html#cube-collection",
-    "title": "Our Cubes",
-    "section": "",
-    "text": "Welcome to our cube showcase! Each cube represents hundreds of hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.\n\n\n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Diddi\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      Do you find yourself thinking 'I wish this card was still playable in modern'? This is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        540\n      \n      \n        🎭 Format:\n        Modern\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Bóas\n        \n      \n      \n        Very High Power\n        \n      \n    \n    \n    \n      In this cube everything is 3 off (including abilities). This leads to a lot of interesting interactions and a lot of fun games.\n    \n    \n    \n      \n        📦 Cards:\n        639\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tómas\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      In this cube synergistic decks should beat out those trying to go for good-stuff strategies\n    \n    \n    \n      \n        📦 Cards:\n        417\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Hjalti\n        \n      \n      \n        Vintage Power\n        \n      \n    \n    \n    \n      Do you like vintage cube? Do you like Hjalti? Then this is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        542\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Binni\n        \n      \n      \n        Unknown Power\n        \n      \n    \n    \n    \n      This cube was built by Tómas using leftover and beloved cards from Binni's collection as a gift. Is it a cube? Yes. What does it do? I don't know.\n    \n    \n    \n      \n        📦 Cards:\n        360\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tommi\n        \n      \n      \n        High Power\n        \n      \n    \n    \n    \n      This is a Legacy-power cube. Is Elder Deep Fiend even in this cube anymore?\n    \n    \n    \n      \n        📦 Cards:\n        473\n      \n      \n        🎭 Format:\n        Legacy\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n\nNo matching items"
-  },
-  {
-    "objectID": "cubes.html#cube-philosophy",
-    "href": "cubes.html#cube-philosophy",
-    "title": "Our Cubes",
-    "section": "Cube Philosophy",
-    "text": "Cube Philosophy\nOur cube designs follow core principles that ensure every draft is memorable:\n\n🎯 Balanced Archetypes\nEach cube supports multiple viable strategies across all color combinations, ensuring no single approach dominates the draft environment.\n\n\n⚖️ Skill Rewarding\nCards are chosen to reward tight play, deep game knowledge, and strategic thinking while remaining accessible to newer players.\n\n\n🔄 High Replayability\nEvery draft feels fresh thanks to carefully balanced card interactions and multiple viable paths to victory.\n\n\n🏆 Tournament Ready\nAll cubes are designed with competitive play in mind, providing engaging games that test players’ skills fairly."
-  },
-  {
-    "objectID": "cubes.html#cube-maintenance",
-    "href": "cubes.html#cube-maintenance",
-    "title": "Our Cubes",
-    "section": "Cube Maintenance",
-    "text": "Cube Maintenance\nWe take pride in maintaining our cubes to the highest standards:\n\nRegular Updates: Cubes are regularly reviewed and updated with new cards and balance changes\nCommunity Input: We welcome feedback from players to improve our cube designs\nProfessional Sleeves: All cards are professionally sleeved and maintained\nTransparent Lists: Complete cube lists are available for study and preparation\n\nWant to suggest cards or provide feedback on our cubes? Check out our Contact page for ways to get involved!"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About IceCube Reykjavík",
@@ -299,5 +54,131 @@
     "title": "About IceCube Reykjavík",
     "section": "Contact & Community",
     "text": "Contact & Community\nReady to join the IceCube community? Here’s how to get involved:\n\nFollow our events - Stay updated on upcoming tournaments\nJoin the discussion - Share feedback and suggestions\nSpread the word - Help grow the Icelandic Magic community\n\n\nIceCube Reykjavík: Where the chill of Iceland meets the heat of competition ❄️🔥"
+  },
+  {
+    "objectID": "cubes.html",
+    "href": "cubes.html",
+    "title": "Our Cubes",
+    "section": "",
+    "text": "Welcome to our cube showcase! Each cube represents hundreds of hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.\n\n\n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Diddi\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      Do you find yourself thinking 'I wish this card was still playable in modern'? This is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        540\n      \n      \n        🎭 Format:\n        Modern\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Bóas\n        \n      \n      \n        Very High Power\n        \n      \n    \n    \n    \n      In this cube everything is 3 off (including abilities). This leads to a lot of interesting interactions and a lot of fun games.\n    \n    \n    \n      \n        📦 Cards:\n        639\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tómas\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      In this cube synergistic decks should beat out those trying to go for good-stuff strategies\n    \n    \n    \n      \n        📦 Cards:\n        417\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Hjalti\n        \n      \n      \n        Vintage Power\n        \n      \n    \n    \n    \n      Do you like vintage cube? Do you like Hjalti? Then this is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        542\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Binni\n        \n      \n      \n        Unknown Power\n        \n      \n    \n    \n    \n      This cube was built by Tómas using leftover and beloved cards from Binni's collection as a gift. Is it a cube? Yes. What does it do? I don't know.\n    \n    \n    \n      \n        📦 Cards:\n        360\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tommi\n        \n      \n      \n        High Power\n        \n      \n    \n    \n    \n      This is a Legacy-power cube. Is Elder Deep Fiend even in this cube anymore?\n    \n    \n    \n      \n        📦 Cards:\n        473\n      \n      \n        🎭 Format:\n        Legacy\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "cubes.html#cube-collection",
+    "href": "cubes.html#cube-collection",
+    "title": "Our Cubes",
+    "section": "",
+    "text": "Welcome to our cube showcase! Each cube represents hundreds of hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.\n\n\n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Diddi\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      Do you find yourself thinking 'I wish this card was still playable in modern'? This is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        540\n      \n      \n        🎭 Format:\n        Modern\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Bóas\n        \n      \n      \n        Very High Power\n        \n      \n    \n    \n    \n      In this cube everything is 3 off (including abilities). This leads to a lot of interesting interactions and a lot of fun games.\n    \n    \n    \n      \n        📦 Cards:\n        639\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tómas\n        \n      \n      \n        Medium Power\n        \n      \n    \n    \n    \n      In this cube synergistic decks should beat out those trying to go for good-stuff strategies\n    \n    \n    \n      \n        📦 Cards:\n        417\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Hjalti\n        \n      \n      \n        Vintage Power\n        \n      \n    \n    \n    \n      Do you like vintage cube? Do you like Hjalti? Then this is the cube for you!\n    \n    \n    \n      \n        📦 Cards:\n        542\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Binni\n        \n      \n      \n        Unknown Power\n        \n      \n    \n    \n    \n      This cube was built by Tómas using leftover and beloved cards from Binni's collection as a gift. Is it a cube? Yes. What does it do? I don't know.\n    \n    \n    \n      \n        📦 Cards:\n        360\n      \n      \n        🎭 Format:\n        Eternal\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n  \n    \n    \n      \n    \n    \n    \n    \n      \n        \n        \n        Created by Tommi\n        \n      \n      \n        High Power\n        \n      \n    \n    \n    \n      This is a Legacy-power cube. Is Elder Deep Fiend even in this cube anymore?\n    \n    \n    \n      \n        📦 Cards:\n        473\n      \n      \n        🎭 Format:\n        Legacy\n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        View on CubeCobra →\n      \n    \n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "cubes.html#cube-philosophy",
+    "href": "cubes.html#cube-philosophy",
+    "title": "Our Cubes",
+    "section": "Cube Philosophy",
+    "text": "Cube Philosophy\nOur cube designs follow core principles that ensure every draft is memorable:\n\n🎯 Balanced Archetypes\nEach cube supports multiple viable strategies across all color combinations, ensuring no single approach dominates the draft environment.\n\n\n⚖️ Skill Rewarding\nCards are chosen to reward tight play, deep game knowledge, and strategic thinking while remaining accessible to newer players.\n\n\n🔄 High Replayability\nEvery draft feels fresh thanks to carefully balanced card interactions and multiple viable paths to victory.\n\n\n🏆 Tournament Ready\nAll cubes are designed with competitive play in mind, providing engaging games that test players’ skills fairly."
+  },
+  {
+    "objectID": "cubes.html#cube-maintenance",
+    "href": "cubes.html#cube-maintenance",
+    "title": "Our Cubes",
+    "section": "Cube Maintenance",
+    "text": "Cube Maintenance\nWe take pride in maintaining our cubes to the highest standards:\n\nRegular Updates: Cubes are regularly reviewed and updated with new cards and balance changes\nCommunity Input: We welcome feedback from players to improve our cube designs\nProfessional Sleeves: All cards are professionally sleeved and maintained\nTransparent Lists: Complete cube lists are available for study and preparation\n\nWant to suggest cards or provide feedback on our cubes? Check out our Contact page for ways to get involved!"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "The best way to contact us or stay updated on events and more is to join our Facebook group"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Date: October 11th, 2025\nTime: Full Day Event (details below)\nLocation: Next Level Gaming, Egilshöll\nFormat: Multi-format cube extravaganza\nEntry Fee: 6000 ISK\nPrize Support: Prizes for top placing players\nThis will be our very first CubeCon event! Join us for the launch of Iceland’s premier cube draft community. A full day of cube drafting across multiple formats - this is what we’ve been building towards!\n\n\n\nMorning Session (10:00 AM - 1:00 PM) - Swiss Cube Draft #1 - 3 rounds of Swiss play - Casual, exotic cubes, skill-building focused\nAfternoon Session (2:00 PM - 5:00 PM)\n- Swiss Cube Draft #2 - 3 rounds of Swiss play - Record-based pods - Exotic cubes, skill-building focused\nEvening Session (6:00 PM - 9:00 PM) - Top 8 Vintage Cube Draft - Single elimination playoffs - High-power vintage cube experience - Top 8 chosen from records and tie-breakers\nWhat to bring: - Dice or counters for tracking life - Playmat (if you have one) - Your enthusiasm for great Magic!\nSpecial Features: - Multiple cube experiences in one day - Progression from casual to competitive - Side events for players to play in between rounds and during top 8"
+  },
+  {
+    "objectID": "events.html#upcoming-events",
+    "href": "events.html#upcoming-events",
+    "title": "Events",
+    "section": "",
+    "text": "Date: October 11th, 2025\nTime: Full Day Event (details below)\nLocation: Next Level Gaming, Egilshöll\nFormat: Multi-format cube extravaganza\nEntry Fee: 6000 ISK\nPrize Support: Prizes for top placing players\nThis will be our very first CubeCon event! Join us for the launch of Iceland’s premier cube draft community. A full day of cube drafting across multiple formats - this is what we’ve been building towards!\n\n\n\nMorning Session (10:00 AM - 1:00 PM) - Swiss Cube Draft #1 - 3 rounds of Swiss play - Casual, exotic cubes, skill-building focused\nAfternoon Session (2:00 PM - 5:00 PM)\n- Swiss Cube Draft #2 - 3 rounds of Swiss play - Record-based pods - Exotic cubes, skill-building focused\nEvening Session (6:00 PM - 9:00 PM) - Top 8 Vintage Cube Draft - Single elimination playoffs - High-power vintage cube experience - Top 8 chosen from records and tie-breakers\nWhat to bring: - Dice or counters for tracking life - Playmat (if you have one) - Your enthusiasm for great Magic!\nSpecial Features: - Multiple cube experiences in one day - Progression from casual to competitive - Side events for players to play in between rounds and during top 8"
+  },
+  {
+    "objectID": "events.html#event-format",
+    "href": "events.html#event-format",
+    "title": "Events",
+    "section": "Event Format",
+    "text": "Event Format\n\nStandard Tournament Structure\n\nSwiss Rounds: Number of rounds determined by attendance (typically 3-4 rounds)\nTop 8 Playoffs: Single elimination bracket for top performers\nMatch Format: Best of 3 games\nTime Limits: 50 minutes per round\n\n\n\nDraft Process\n\nSeat Assignment: Random seating for each pod (8 players)\nPack Opening: Each player receives 3 booster packs (15 cards each)\nDrafting: Standard booster draft rules - pick 1, pass the rest\nDeck Building: 40-card minimum deck construction (30 minutes)"
+  },
+  {
+    "objectID": "events.html#venue-information",
+    "href": "events.html#venue-information",
+    "title": "Events",
+    "section": "Venue Information",
+    "text": "Venue Information\n\nNext Level Gaming, Egilshöll\nNext Level Gaming is Reykjavík’s premier gaming destination, offering the perfect environment for our inaugural cube draft event. Located in Egilshöll, the venue provides:\n\nSpacious Gaming Area: Ample room for multiple draft pods\nProfessional Setup: Quality tables and comfortable seating\nExcellent Lighting: Perfect for reading cards and gameplay\nAccessible Location: Easy to reach with parking available\nGaming Atmosphere: Surrounded by fellow gamers and enthusiasts"
+  },
+  {
+    "objectID": "events.html#what-we-provide",
+    "href": "events.html#what-we-provide",
+    "title": "Events",
+    "section": "What We Provide",
+    "text": "What We Provide\n\nComplete Cubes: All cards needed for drafting (multiple cube variants)\nBasic Lands: Full sets of all five basic land types\nTokens: Common creature and other tokens\nPlaymats: We’ll have some large playmats available for use"
+  },
+  {
+    "objectID": "events.html#rules-guidelines",
+    "href": "events.html#rules-guidelines",
+    "title": "Events",
+    "section": "Rules & Guidelines",
+    "text": "Rules & Guidelines\n\nTournament Rules\n\nREL: Regular Rules Enforcement Level\nJudges: Experienced judges available for questions\nDeck Checks: Random deck checks may occur\nNo Outside Cards: Only cards from the current draft may be used\n\n\n\nCode of Conduct\n\nRespect: Treat all players, judges, and organizers with respect\nSportsmanship: Win graciously, lose with dignity\nFair Play: No cheating, stalling, or unsporting behavior\nInclusivity: Welcoming environment for players of all backgrounds"
+  },
+  {
+    "objectID": "events.html#registration",
+    "href": "events.html#registration",
+    "title": "Events",
+    "section": "Registration",
+    "text": "Registration\n\nHow to Register\nRegistration details will be announced closer to each event. We recommend following our Facebook group for the latest updates."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IceCube Reykjavík ❄️🧊",
+    "section": "",
+    "text": "Welcome to Iceland’s most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík."
+  },
+  {
+    "objectID": "index.html#experience-magic-the-gathering-like-never-before",
+    "href": "index.html#experience-magic-the-gathering-like-never-before",
+    "title": "IceCube Reykjavík ❄️🧊",
+    "section": "",
+    "text": "Welcome to Iceland’s most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík."
+  },
+  {
+    "objectID": "index.html#what-is-icecube-reykjavík",
+    "href": "index.html#what-is-icecube-reykjavík",
+    "title": "IceCube Reykjavík ❄️🧊",
+    "section": "What is IceCube Reykjavík?",
+    "text": "What is IceCube Reykjavík?\nIceCube Reykjavík is a Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players to experience carefully curated cube environments that showcase the best of Magic’s history with a personal touch.\n\n🎯 Our Mission\n\nFoster Community: Build a welcoming and inclusive environment for Magic players of all skill levels\nCelebrate the Game: Showcase the depth and complexity of Magic through expertly designed cube experiences\n\nPromote Competition: Provide competitive yet friendly tournaments with exciting prizes\nShare Knowledge: Help players improve their draft and gameplay skills"
+  },
+  {
+    "objectID": "index.html#upcoming-events",
+    "href": "index.html#upcoming-events",
+    "title": "IceCube Reykjavík ❄️🧊",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\n\nCubeCon Reykjavík 2025\n\nDate: October 11th, 2025\nLocation: Next Level Gaming, Egilshöll\nFormat: Full Day Multi-Format Event\nEntry: 6000 ISK\n\nOur inaugural CubeCon event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!\nView Full Event Details\n\n\n\nRegular Cube Drafts\nWe host regular cube drafts throughout the month, typically on Thursday evenings. Our events rotate between two convenient locations:\n\nNext Level Gaming, Egilshöll\nNexus, Glæsibær\n\nEach draft features a different cube experience, from balanced beginner-friendly environments to high-powered vintage cubes. Pre-registration is recommended but walk-ins are welcome when space permits.\nFor the latest schedule and to reserve your spot, join our Facebook group using the link at the bottom of this page."
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "IceCube Reykjavík ❄️🧊",
+    "section": "Getting Started",
+    "text": "Getting Started\nWhether you’re a seasoned cube drafter or new to the format, IceCube Reykjavík welcomes you! Here’s what you need to know:\n\nNo collection required - All cards are provided\nAll skill levels welcome - We support both new and experienced players\nCompetitive yet friendly - Focus on fun and improvement\nRegular events - Multiple opportunities throughout the year"
+  },
+  {
+    "objectID": "index.html#join-the-community",
+    "href": "index.html#join-the-community",
+    "title": "IceCube Reykjavík ❄️🧊",
+    "section": "Join the Community",
+    "text": "Join the Community\nReady to experience the magic? Join our Facebook group to stay updated on events and more!"
   }
 ]

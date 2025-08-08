@@ -18,8 +18,6 @@ website:
         text: Cubes
       - href: events.qmd
         text: Events
-      - href: decklists.qmd
-        text: Decklists
       - href: contact.qmd
         text: Contact
     

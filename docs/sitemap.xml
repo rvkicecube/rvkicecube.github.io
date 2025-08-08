@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rvkicecube.iss/decklists.html</loc>
-    <lastmod>2025-08-08T10:30:37.570Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rvkicecube.iss/index.html</loc>
-    <lastmod>2025-08-08T11:59:46.638Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rvkicecube.iss/events.html</loc>
-    <lastmod>2025-08-08T12:05:38.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rvkicecube.iss/contact.html</loc>
-    <lastmod>2025-08-08T10:30:37.570Z</lastmod>
+    <loc>https://rvkicecube.iss/about.html</loc>
+    <lastmod>2025-08-08T10:30:37.569Z</lastmod>
   </url>
   <url>
     <loc>https://rvkicecube.iss/cubes.html</loc>
     <lastmod>2025-08-08T11:34:10.062Z</lastmod>
   </url>
   <url>
-    <loc>https://rvkicecube.iss/about.html</loc>
-    <lastmod>2025-08-08T10:30:37.569Z</lastmod>
+    <loc>https://rvkicecube.iss/contact.html</loc>
+    <lastmod>2025-08-08T12:10:56.255Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rvkicecube.iss/events.html</loc>
+    <lastmod>2025-08-08T12:05:38.917Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rvkicecube.iss/index.html</loc>
+    <lastmod>2025-08-08T12:07:51.989Z</lastmod>
   </url>
 </urlset>
