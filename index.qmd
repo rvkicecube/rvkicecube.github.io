@@ -4,7 +4,7 @@ title-block-banner: true
 toc: false
 ---
 
-::: hero-banner
+::: {.hero-banner .column-screen}
 ![](images/logo_white-bg.png){fig-alt="IceCube Reykjavík Logo" width="200px" .hero-logo}
 
 # IceCube Reykjavík ❄️🧊
@@ -14,7 +14,25 @@ toc: false
 Welcome to Iceland's most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík.
 :::
 
-::: {.page-layout}
+::: {.event-banner .column-screen}
+::: {.event-content}
+::: {.event-date}
+October 11th, 2024 ❄️
+:::
+
+::: {.event-title}
+IceCube Draft #1 - Inaugural Event!
+:::
+
+::: {.event-subtitle}
+Join us for Iceland's first premier cube draft event at Next Level Gaming, Egilshöll. A full day of Magic featuring multiple cube formats and culminating in a vintage cube Top 8!
+:::
+
+[Learn More & Register](events.qmd){.event-cta}
+:::
+:::
+
+::: {.page-layout .column-page}
 ::: {.main-content}
 
 ## What is IceCube Reykjavík?
