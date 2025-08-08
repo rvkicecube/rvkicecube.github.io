@@ -21,11 +21,11 @@ October 11th, 2024 ❄️
 :::
 
 ::: {.event-title}
-IceCube Draft #1 - Inaugural Event!
+CubeCon Reykjavík 2025
 :::
 
 ::: {.event-subtitle}
-Join us for Iceland's first premier cube draft event at Next Level Gaming, Egilshöll. A full day of Magic featuring multiple cube formats and culminating in a vintage cube Top 8!
+Join us for Iceland's first CubeCon event at Next Level Gaming, Egilshöll. A full day of Magic featuring multiple cube formats and culminating in a vintage cube Top 8!
 :::
 
 [Learn More & Register](events.qmd){.event-cta}
@@ -37,7 +37,7 @@ Join us for Iceland's first premier cube draft event at Next Level Gaming, Egils
 
 ## What is IceCube Reykjavík?
 
-IceCube Reykjavík is a premier Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players from across the country and beyond to experience carefully curated cube environments that showcase the best of Magic's history.
+IceCube Reykjavík is a Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players to experience carefully curated cube environments that showcase the best of Magic's history with a personal touch.
 
 ### 🎯 Our Mission
 
@@ -46,38 +46,32 @@ IceCube Reykjavík is a premier Magic: The Gathering cube draft event series hel
 -   **Promote Competition**: Provide competitive yet friendly tournaments with exciting prizes
 -   **Share Knowledge**: Help players improve their draft and gameplay skills
 
-## What Makes Us Special?
-
-:::::: grid
-::: g-col-md-4
-### 🧊 Expertly Curated Cubes
-
-Our cubes are meticulously designed to provide balanced, skill-testing draft environments that highlight Magic's greatest cards and mechanics.
-:::
-
-::: g-col-md-4
-### 🏆 Competitive Events
-
-Regular tournaments with Swiss rounds, top 8 playoffs, and attractive prize support for players of all levels.
-:::
-
-::: g-col-md-4
-### 🌟 Community Focus
-
-A welcoming atmosphere where new players can learn and experienced players can share their knowledge and passion.
-:::
-::::::
-
 ## Upcoming Events
 
-### Next Event: IceCube Draft #1
+### CubeCon Reykjavík 2025
 
--   **Date**: October 11th, 2024
+-   **Date**: October 11th, 2025
 -   **Location**: Next Level Gaming, Egilshöll
 -   **Format**: Full Day Multi-Format Event
--   **Entry**: Details coming soon
+-   **Entry**: 6000 ISK
 
-*Our inaugural event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!*
+*Our inaugural CubeCon event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!*
+
+[View Full Event Details](events.qmd){.btn .btn-primary}
+
+-------------------------------------------------------------------------
+
+### Regular Cube Drafts
+
+We host regular cube drafts throughout the month, typically on Thursday evenings. Our events rotate between two convenient locations:
+
+- **Next Level Gaming, Egilshöll**
+- **Nexus, Glæsibær**
+
+Each draft features a different cube experience, from balanced beginner-friendly environments to high-powered vintage cubes. Pre-registration is recommended but walk-ins are welcome when space permits.
+
+*For the latest schedule and to reserve your spot, join our Facebook group using the link at the bottom of this page.*
+
 
 ## Getting Started
 
@@ -90,18 +84,12 @@ Whether you're a seasoned cube drafter or new to the format, IceCube Reykjavík 
 
 ## Join the Community
 
-Ready to experience the magic? Follow us on social media and join our community to stay updated on events, decklists, and more!
-
-------------------------------------------------------------------------
-
-*IceCube Reykjavík - Where Icelandic Magic meets world-class cube drafting* ❄️
+Ready to experience the magic? [Join our Facebook group](https://www.facebook.com/groups/mtgkubbur/) to stay updated on events and more!
 
 :::
 
 ::: {.banner-sidebar}
-![IceCube Reykjavík Event Banner](images/photo-of-banner.png){fig-alt="IceCube Reykjavík Event Banner" .sidebar-banner}
-
-*Our professional event banners create an exciting tournament atmosphere at venues across Reykjavík*
+![](images/photo-of-banner.png){fig-alt="IceCube Reykjavík Event Banner" .sidebar-banner}
 :::
 
 :::
