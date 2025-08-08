@@ -333,7 +333,8 @@ table {
 
   .sidebar-item {
     border-radius: $border-radius-sm;
-    margin: 0.25rem 0;
+    margin: 0 0;
+    padding: 0 0;
 
     &:hover {
       background-color: rgba($glacier-blue, 0.1);
@@ -510,22 +511,19 @@ table {
     position: sticky;
     top: 2rem;
     height: fit-content;
-    background: $arctic-white;
-    padding: 2rem;
-    border-radius: $border-radius-lg;
-    box-shadow: $box-shadow;
     text-align: center;
     
     .sidebar-banner {
       width: 100%;
       height: auto;
-      border-radius: $border-radius;
-      box-shadow: $box-shadow-sm;
-      margin-bottom: 1rem;
+      border-radius: $border-radius-lg;
+      box-shadow: $box-shadow;
+      margin: 0;
       transition: $transition-base;
+      display: block;
       
       &:hover {
-        transform: scale(1.02);
+        transform: translateY(-4px);
         box-shadow: $box-shadow-lg;
       }
     }
@@ -533,9 +531,10 @@ table {
     p {
       font-style: italic;
       color: $frost-gray;
-      margin: 0;
+      margin: 1rem 0 0 0;
       font-size: 0.85rem;
       line-height: 1.4;
+      padding: 0;
     }
   }
 }
@@ -570,11 +569,10 @@ table {
     .banner-sidebar {
       position: static;
       margin-top: 2rem;
-      padding: 1.5rem;
       
       .sidebar-banner {
         &:hover {
-          transform: none; // Disable hover scale on mobile
+          transform: none; // Disable hover effects on mobile
         }
       }
     }
