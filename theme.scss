@@ -1,0 +1,512 @@
+/*-- scss:defaults --*/
+
+// IceCube Reykjavík Theme Variables
+// Based on Bootstrap SCSS variables for maximum compatibility
+
+// Color Palette - Ice & Winter Theme
+$ice-blue: #87CEEB !default;
+$deep-blue: #1e3a8a !default;
+$arctic-white: #f8fafc !default;
+$frost-gray: #64748b !default;
+$glacier-blue: #0ea5e9 !default;
+$snow-white: #ffffff !default;
+$midnight-blue: #0f172a !default;
+
+// Bootstrap Color Overrides
+$primary: $glacier-blue !default;
+$secondary: $frost-gray !default;
+$success: #10b981 !default;
+$info: $ice-blue !default;
+$warning: #f59e0b !default;
+$danger: #ef4444 !default;
+$light: $arctic-white !default;
+$dark: $midnight-blue !default;
+
+// Background Colors
+$body-bg: $snow-white !default;
+$body-color: $midnight-blue !default;
+
+// Typography
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-size-base: 1rem !default;
+$line-height-base: 1.6 !default;
+
+$h1-font-size: 2.5rem !default;
+$h2-font-size: 2rem !default;
+$h3-font-size: 1.75rem !default;
+$h4-font-size: 1.5rem !default;
+$h5-font-size: 1.25rem !default;
+$h6-font-size: 1rem !default;
+
+$headings-color: $midnight-blue !default;
+$headings-font-weight: 600 !default;
+
+// Links
+$link-color: $glacier-blue !default;
+$link-hover-color: $deep-blue !default;
+$link-decoration: none !default;
+$link-hover-decoration: underline !default;
+
+// Navigation
+$navbar-brand-font-size: 1.5rem !default;
+$navbar-brand-font-weight: 700 !default;
+$navbar-padding-y: 0.75rem !default;
+$navbar-padding-x: 1rem !default;
+
+// Buttons
+$btn-font-weight: 500 !default;
+$btn-border-radius: 0.5rem !default;
+$btn-padding-y: 0.75rem !default;
+$btn-padding-x: 1.5rem !default;
+
+// Cards and Components
+$border-radius: 0.75rem !default;
+$border-radius-sm: 0.375rem !default;
+$border-radius-lg: 1rem !default;
+
+$card-border-radius: $border-radius !default;
+$card-bg: $arctic-white !default;
+$card-border-color: #e2e8f0 !default;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 6
+) !default;
+
+// Shadows
+$box-shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !default;
+$box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !default;
+$box-shadow-lg: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !default;
+
+// Transitions
+$transition-base: all 0.2s ease !default;
+$transition-fast: all 0.15s ease !default;
+$transition-slow: all 0.3s ease !default;
+
+/*-- scss:rules --*/
+
+// Mixins for gradients and effects
+@mixin ice-gradient($direction: 135deg) {
+  background: linear-gradient($direction, $deep-blue 0%, $glacier-blue 100%);
+}
+
+@mixin frost-gradient($direction: 135deg) {
+  background: linear-gradient($direction, $arctic-white 0%, #f1f5f9 100%);
+}
+
+@mixin card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $box-shadow-lg;
+  }
+}
+
+@mixin text-shadow-light {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+// Hero Banner Styling
+.hero-banner {
+  background: transparent;
+  color: $midnight-blue;
+  padding: 3rem 2rem;
+  margin: 0 0 2rem 0;
+  border: 3px solid $glacier-blue;
+  border-radius: $border-radius-lg;
+  text-align: center;
+  box-shadow: $box-shadow;
+  position: relative;
+  overflow: hidden;
+  
+  // Subtle gradient border effect
+  &::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, $glacier-blue 0%, $ice-blue 50%, $deep-blue 100%);
+    border-radius: $border-radius-lg;
+    z-index: -1;
+  }
+  
+  // Inner content background
+  &::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    background: rgba($snow-white, 0.95);
+    border-radius: calc(#{$border-radius-lg} - 1px);
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: $deep-blue;
+    text-shadow: none;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: $glacier-blue;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: $frost-gray;
+  }
+  
+  // Hero logo styling
+  .hero-logo {
+    margin-bottom: 1.5rem;
+    border-radius: $border-radius-sm;
+    box-shadow: $box-shadow-sm;
+    transition: $transition-base;
+    
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: $box-shadow;
+    }
+  }
+}
+
+// Title block customization
+.title-block-banner {
+  @include ice-gradient();
+  color: $snow-white;
+
+  .title {
+    color: $snow-white;
+  }
+
+  .subtitle {
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+// Grid improvements
+.grid {
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.g-col-md-4 {
+  background: $arctic-white;
+  padding: 2rem;
+  border-radius: $border-radius;
+  border: 1px solid $card-border-color;
+  box-shadow: $box-shadow-sm;
+  @include card-hover();
+
+  h3 {
+    color: $deep-blue;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+}
+
+// Navigation improvements
+.navbar {
+  background-color: $snow-white !important;
+  border-bottom: 2px solid $glacier-blue;
+  box-shadow: none;
+  
+  .navbar-brand {
+    color: $deep-blue !important;
+    
+    &:hover, &:focus {
+      color: $glacier-blue !important;
+    }
+  }
+  
+  .navbar-nav .nav-link {
+    color: $deep-blue !important;
+    font-weight: 500;
+    
+    &:hover, &:focus {
+      color: $glacier-blue !important;
+    }
+    
+    &.active {
+      color: $glacier-blue !important;
+      font-weight: 600;
+    }
+  }
+  
+  // Search button styling
+  .aa-DetachedSearchButton {
+    background-color: transparent !important;
+    border: 1px solid $glacier-blue !important;
+    color: $deep-blue !important;
+    
+    &:hover {
+      background-color: rgba($glacier-blue, 0.1) !important;
+    }
+  }
+  
+  // Mobile hamburger menu
+  .navbar-toggler {
+    border-color: $glacier-blue !important;
+    
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='#{$deep-blue}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
+  }
+}
+
+// Button styling
+.btn-primary {
+  background-color: $glacier-blue;
+  border-color: $glacier-blue;
+  transition: $transition-base;
+
+  &:hover {
+    background-color: $deep-blue;
+    border-color: $deep-blue;
+    transform: translateY(-1px);
+  }
+}
+
+// Typography improvements
+h2 {
+  border-bottom: 2px solid $ice-blue;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+// Code and content blocks
+.sourceCode {
+  border-radius: $border-radius-sm;
+  border: 1px solid $card-border-color;
+}
+
+blockquote {
+  border-left: 4px solid $glacier-blue;
+  background: $arctic-white;
+  padding: 1rem 1.5rem;
+  border-radius: 0 $border-radius-sm $border-radius-sm 0;
+  margin: 1.5rem 0;
+}
+
+// Table styling
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: $border-radius-sm;
+  overflow: hidden;
+  box-shadow: $box-shadow-sm;
+
+  thead th {
+    background-color: $deep-blue;
+    color: $snow-white;
+    font-weight: 600;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: $arctic-white;
+  }
+}
+
+// Footer improvements
+.page-footer {
+  background: linear-gradient(135deg, $midnight-blue 0%, $deep-blue 100%);
+  color: $snow-white;
+  margin-top: 4rem;
+}
+
+// Sidebar improvements
+.sidebar {
+  background-color: $arctic-white;
+  border-right: 1px solid $card-border-color;
+
+  .sidebar-item {
+    border-radius: $border-radius-sm;
+    margin: 0.25rem 0;
+
+    &:hover {
+      background-color: rgba($glacier-blue, 0.1);
+    }
+  }
+}
+
+// Special styling for event cards
+.event-card {
+  @include frost-gradient();
+  border: 2px solid $ice-blue;
+  border-radius: $border-radius-lg;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $glacier-blue 0%, $ice-blue 100%);
+  }
+
+  h3 {
+    color: $deep-blue;
+    margin-bottom: 1rem;
+  }
+}
+
+// Custom callout styling
+.callout {
+  border-radius: $border-radius;
+  border-left: 4px solid $glacier-blue;
+
+  &.callout-note {
+    background-color: rgba($glacier-blue, 0.05);
+  }
+
+  &.callout-tip {
+    border-left-color: $success;
+    background-color: rgba($success, 0.05);
+  }
+
+  &.callout-warning {
+    border-left-color: $warning;
+    background-color: rgba($warning, 0.05);
+  }
+}
+
+// Animation utilities
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+// Ice crystal decorative elements
+.ice-decoration::before {
+  content: "❄️";
+  margin-right: 0.5rem;
+  opacity: 0.7;
+}
+
+// Page layout with sidebar
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 3rem;
+  margin-top: 2rem;
+  
+  .main-content {
+    min-width: 0; // Prevents grid overflow
+  }
+  
+  .banner-sidebar {
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+    background: $arctic-white;
+    padding: 2rem;
+    border-radius: $border-radius-lg;
+    box-shadow: $box-shadow;
+    text-align: center;
+    
+    .sidebar-banner {
+      width: 100%;
+      height: auto;
+      border-radius: $border-radius;
+      box-shadow: $box-shadow-sm;
+      margin-bottom: 1rem;
+      transition: $transition-base;
+      
+      &:hover {
+        transform: scale(1.02);
+        box-shadow: $box-shadow-lg;
+      }
+    }
+    
+    p {
+      font-style: italic;
+      color: $frost-gray;
+      margin: 0;
+      font-size: 0.85rem;
+      line-height: 1.4;
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 2rem 1rem;
+    margin: 0 0 1rem 0;
+    border-width: 2px;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .grid {
+    gap: 1rem;
+  }
+
+  .g-col-md-4 {
+    padding: 1.5rem;
+  }
+  
+  .page-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    
+    .banner-sidebar {
+      position: static;
+      margin-top: 2rem;
+      padding: 1.5rem;
+      
+      .sidebar-banner {
+        &:hover {
+          transform: none; // Disable hover scale on mobile
+        }
+      }
+    }
+  }
+  
+  .hero-logo {
+    width: 150px !important; // Smaller logo on mobile
+  }
+}

@@ -1,284 +1,38 @@
-/* IceCube Reykjavík Custom Styles */
-/*-- scss:defaults --*/
-/* CSS Variables for theming */
-:root {
-  --ice-blue: #87CEEB;
-  --deep-blue: #1e3a8a;
-  --arctic-white: #f8fafc;
-  --frost-gray: #64748b;
-  --glacier-blue: #0ea5e9;
-  --snow-white: #ffffff;
-  --midnight-blue: #0f172a;
-}
+/* IceCube Reykjavík - Additional Custom Styles */
+/* This file contains additional styles that supplement the main theme.scss */
 
-/* Hero Banner Styling */
-.hero-banner {
-  background: linear-gradient(135deg, var(--deep-blue) 0%, var(--glacier-blue) 100%);
-  color: var(--snow-white);
-  padding: 4rem 2rem;
-  margin: -2rem -2rem 2rem -2rem;
-  border-radius: 0 0 1rem 1rem;
-  text-align: center;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
+/* Any additional custom styles that don't fit into the SCSS theme structure can go here */
 
-.hero-banner h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.hero-banner h2 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  opacity: 0.9;
-  margin-bottom: 1.5rem;
-}
-
-.hero-banner p {
-  font-size: 1.1rem;
-  max-width: 600px;
-  margin: 0 auto;
-  opacity: 0.9;
-}
-
-/* Title block customization */
-.title-block-banner {
-  background: linear-gradient(135deg, var(--deep-blue) 0%, var(--glacier-blue) 100%);
-  color: var(--snow-white);
-}
-
-.title-block-banner .title {
-  color: var(--snow-white);
-}
-
-.title-block-banner .subtitle {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* Grid improvements */
-.grid {
-  gap: 2rem;
-  margin: 2rem 0;
-}
-
-.g-col-md-4 {
-  background: var(--arctic-white);
-  padding: 2rem;
-  border-radius: 0.75rem;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.g-col-md-4:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.g-col-md-4 h3 {
-  color: var(--deep-blue);
-  font-weight: 600;
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-
-/* Navigation improvements */
-.navbar {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.navbar-brand {
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
-/* Button styling */
-.btn-primary {
-  background-color: var(--glacier-blue);
-  border-color: var(--glacier-blue);
-  font-weight: 500;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  transition: all 0.2s ease;
-}
-
-.btn-primary:hover {
-  background-color: var(--deep-blue);
-  border-color: var(--deep-blue);
-  transform: translateY(-1px);
-}
-
-/* Typography improvements */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--midnight-blue);
-  font-weight: 600;
-}
-
-h2 {
-  border-bottom: 2px solid var(--ice-blue);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-  margin-top: 2rem;
-}
-
-/* Code and content blocks */
-.sourceCode {
-  border-radius: 0.5rem;
-  border: 1px solid #e2e8f0;
-}
-
-blockquote {
-  border-left: 4px solid var(--glacier-blue);
-  background: var(--arctic-white);
-  padding: 1rem 1.5rem;
-  border-radius: 0 0.5rem 0.5rem 0;
-  margin: 1.5rem 0;
-}
-
-/* Table styling */
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-thead th {
-  background-color: var(--deep-blue);
-  color: var(--snow-white);
-  font-weight: 600;
-}
-
-tbody tr:nth-child(even) {
-  background-color: var(--arctic-white);
-}
-
-/* Footer improvements */
-.page-footer {
-  background: linear-gradient(135deg, var(--midnight-blue) 0%, var(--deep-blue) 100%);
-  color: var(--snow-white);
-  margin-top: 4rem;
-}
-
-/* Sidebar improvements */
-.sidebar {
-  background-color: var(--arctic-white);
-  border-right: 1px solid #e2e8f0;
-}
-
-.sidebar .sidebar-item {
-  border-radius: 0.375rem;
-  margin: 0.25rem 0;
-}
-
-.sidebar .sidebar-item:hover {
-  background-color: rgba(14, 165, 233, 0.1);
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
+/* Print styles */
+@media print {
   .hero-banner {
-    padding: 2rem 1rem;
-    margin: -1rem -1rem 1rem -1rem;
+    background: #1e3a8a !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .hero-banner {
+    background: #000000 !important;
+    color: #ffffff !important;
   }
   
-  .hero-banner h1 {
-    font-size: 2.5rem;
-  }
-  
-  .hero-banner h2 {
-    font-size: 1.25rem;
-  }
-  
-  .grid {
-    gap: 1rem;
-  }
-  
-  .g-col-md-4 {
-    padding: 1.5rem;
+  .event-card {
+    border-width: 3px !important;
   }
 }
 
-/* Animation utilities */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .hero-banner h1,
+  .g-col-md-4,
+  .btn-primary,
+  .fade-in {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in {
-  animation: fadeIn 0.6s ease-out;
-}
-
-/* Ice crystal decorative elements */
-.ice-decoration::before {
-  content: "❄️";
-  margin-right: 0.5rem;
-  opacity: 0.7;
-}
-
-/* Special styling for event cards */
-.event-card {
-  background: linear-gradient(135deg, var(--arctic-white) 0%, #f1f5f9 100%);
-  border: 2px solid var(--ice-blue);
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 1.5rem 0;
-  position: relative;
-  overflow: hidden;
-}
-
-.event-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--glacier-blue) 0%, var(--ice-blue) 100%);
-}
-
-.event-card h3 {
-  color: var(--deep-blue);
-  margin-bottom: 1rem;
-}
-
-/* Link styling */
-a {
-  color: var(--glacier-blue);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: var(--deep-blue);
-  text-decoration: underline;
-}
-
-/* Custom callout styling */
-.callout {
-  border-radius: 0.75rem;
-  border-left: 4px solid var(--glacier-blue);
-}
-
-.callout-note {
-  background-color: rgba(14, 165, 233, 0.05);
-}
-
-.callout-tip {
-  border-left-color: #10b981;
-  background-color: rgba(16, 185, 129, 0.05);
-}
-
-.callout-warning {
-  border-left-color: #f59e0b;
-  background-color: rgba(245, 158, 11, 0.05);
 }

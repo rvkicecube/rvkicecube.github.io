@@ -5,10 +5,9 @@ project:
 website:
   title: "IceCube Reykjavík"
   description: "Magic: The Gathering Cube Draft Event in Iceland"
-  site-url: "https://rvkicecube.github.io"
+  site-url: "https://rvkicecube.iss"
   
   navbar:
-    background: primary
     search: true
     left:
       - href: index.qmd
@@ -26,18 +25,6 @@ website:
       - icon: github
         href: https://github.com/rvkicecube/rvkicecube.github.io
         aria-label: GitHub
-  
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - section: "Navigation"
-        contents:
-          - index.qmd
-          - about.qmd
-          - events.qmd
-          - decklists.qmd
-          - contact.qmd
 
   page-footer:
     left: "© 2024 IceCube Reykjavík"
@@ -49,8 +36,8 @@ website:
 format:
   html:
     theme: 
-      light: [cosmo, styles.css]
-      dark: [cosmo, styles.css]
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme.scss]
     css: styles.css
     toc: true
     toc-location: right

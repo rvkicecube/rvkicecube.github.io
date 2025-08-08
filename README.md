@@ -14,7 +14,8 @@ This website is built with [Quarto](https://quarto.org/), a scientific and techn
 - `decklists.qmd` - Featured decklists and strategy guides  
 - `contact.qmd` - Contact information and FAQ
 - `_quarto.yml` - Site configuration and navigation
-- `styles.css` - Custom styling with ice/winter theme
+- `theme.scss` - Main SCSS theme with Bootstrap variable overrides
+- `styles.css` - Additional custom styles and accessibility enhancements
 
 ## Building the Site
 
@@ -62,9 +63,11 @@ This creates a `docs/` directory with the complete static website.
 ## Customization
 
 ### Styling
-- Edit `styles.css` to modify the visual design
-- The current theme uses an ice/winter color palette with blues and whites
-- CSS variables at the top of the file make color changes easy
+- **Primary Theme**: `theme.scss` contains the main SCSS theme with Bootstrap variable overrides
+- **Additional Styles**: `styles.css` contains supplementary styles and accessibility features
+- **Color Palette**: Ice/winter theme with blues and whites defined as SCSS variables
+- **Responsive Design**: Mobile-first approach with proper breakpoints
+- **Accessibility**: Support for high contrast, reduced motion, and print styles
 
 ### Content
 - All content is in `.qmd` files using Markdown syntax

@@ -1,17 +1,21 @@
 ---
-title: "Welcome to IceCube Reykjavík"
-subtitle: "Iceland's Premier Magic: The Gathering Cube Draft Experience"
 page-layout: full
 title-block-banner: true
+toc: false
 ---
 
 ::: hero-banner
+![](images/logo_white-bg.png){fig-alt="IceCube Reykjavík Logo" width="200px" .hero-logo}
+
 # IceCube Reykjavík ❄️🧊
 
 ## Experience Magic: The Gathering Like Never Before
 
 Welcome to Iceland's most exciting Magic: The Gathering cube draft community! Join us for unforgettable gaming experiences in the heart of Reykjavík.
 :::
+
+::: {.page-layout}
+::: {.main-content}
 
 ## What is IceCube Reykjavík?
 
@@ -73,3 +77,13 @@ Ready to experience the magic? Follow us on social media and join our community 
 ------------------------------------------------------------------------
 
 *IceCube Reykjavík - Where Icelandic Magic meets world-class cube drafting* ❄️
+
+:::
+
+::: {.banner-sidebar}
+![IceCube Reykjavík Event Banner](images/photo-of-banner.png){fig-alt="IceCube Reykjavík Event Banner" .sidebar-banner}
+
+*Our professional event banners create an exciting tournament atmosphere at venues across Reykjavík*
+:::
+
+:::
