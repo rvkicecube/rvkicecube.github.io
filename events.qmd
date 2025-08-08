@@ -45,7 +45,7 @@ This will be our very first CubeCon event! Join us for the launch of Iceland's p
 - Progression from casual to competitive
 - Side events for players to play in between rounds and during top 8
 
-[🎫 Register for CubeCon 2025](https://docs.google.com/forms/d/e/1FAIpQLSdupdSp_39CfMX64dVHkqX07k2c0ZDYCysKrvL79P6rWleSjA/viewform?usp=header){.btn-register .center}
+[🎫 Register for CubeCon 2025](https://docs.google.com/forms/d/e/1FAIpQLSdupdSp_39CfMX64dVHkqX07k2c0ZDYCysKrvL79P6rWleSjA/viewform?usp=header){.btn-register .center target="_blank"}
 :::
 
 ## Event Format
