@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "IceCube Reykjavík"
+  title: "Reykjavík Ice Cube"
   description: "Magic: The Gathering Cube Draft Event in Iceland"
   site-url: "https://rvkicecube.is"
   
@@ -12,8 +12,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
       - href: cubes.qmd
         text: Cubes
       - href: events.qmd

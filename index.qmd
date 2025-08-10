@@ -5,13 +5,13 @@ toc: false
 ---
 
 ::: {.hero-banner .column-screen}
-![](images/logo_white-bg.png){fig-alt="IceCube Reykjavík Logo" width="200px" .hero-logo}
+![](images/logo_white-bg.png){fig-alt="Reykjavík Ice Cube Logo" width="200px" .hero-logo}
 
-# IceCube Reykjavík ❄️
+# Reykjavík Ice Cube ❄️
 
-## Reykjavík's Cube Draft Community
+## Reykjavík's Cube Draft Festival
 
-Draft carefully curated Magic cards with passionate players in Iceland's capital. From Thursday night regulars to our inaugural CubeCon tournament, we're building something special here.
+Draft carefully curated Magic cards with passionate players in Iceland's capital.
 :::
 
 ::: {.event-banner .column-screen}
@@ -21,11 +21,11 @@ October 11th, 2025 ❄️
 :::
 
 ::: {.event-title}
-CubeCon Reykjavík 2025
+Reykjavík Ice Cube 2025
 :::
 
 ::: {.event-subtitle}
-Join us for Iceland's first CubeCon event at Next Level Gaming, Egilshöll. A full day of Magic featuring multiple cube formats and culminating in a vintage cube Top 8!
+Join us for our first Reykjavík Ice Cube event at Next Level Gaming, Egilshöll. A full day of Magic featuring multiple cube formats and culminating in a vintage cube Top 8!
 :::
 
 [Learn More & Register](events.qmd){.event-cta}
@@ -35,9 +35,9 @@ Join us for Iceland's first CubeCon event at Next Level Gaming, Egilshöll. A fu
 ::: {.page-layout .column-page}
 ::: {.main-content}
 
-## What is IceCube Reykjavík?
+## What is Reykjavík Ice Cube?
 
-IceCube Reykjavík is a Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players to experience carefully curated cube environments that showcase the best of Magic's history with a personal touch.
+Reykjavík Ice Cube is a Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players to experience carefully curated cube environments that showcase the best of Magic's history with a personal touch.
 
 ### 🎯 Our Mission
 
@@ -92,7 +92,7 @@ Ready to join? [Visit our Facebook group](https://www.facebook.com/groups/mtgkub
 :::
 
 ::: {.banner-sidebar}
-![](images/photo-of-banner.png){fig-alt="IceCube Reykjavík Event Banner" .sidebar-banner}
+![](images/photo-of-banner.png){fig-alt="Reykjavík Ice Cube Event Banner" .sidebar-banner}
 :::
 
 :::

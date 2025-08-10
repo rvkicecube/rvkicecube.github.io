@@ -1,6 +1,6 @@
 ---
 title: "Our Cubes"
-subtitle: "Discover the carefully curated cube environments at IceCube Reykjavík"
+subtitle: "Discover the carefully curated cube environments at Reykjavík Ice Cube"
 listing:
   id: cube-listing
   template: cube-template.ejs
@@ -9,36 +9,9 @@ listing:
 
 ## Cube Collection
 
-Welcome to our cube showcase! Each cube represents hundreds of hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.
+Welcome to our cube showcase! Each cube represents countless hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.
 
 ::: {#cube-listing}
 :::
-
-## Cube Philosophy
-
-Our cube designs follow core principles that ensure every draft is memorable:
-
-### 🎯 **Balanced Archetypes**
-Each cube supports multiple viable strategies across all color combinations, ensuring no single approach dominates the draft environment.
-
-### ⚖️ **Skill Rewarding**
-Cards are chosen to reward tight play, deep game knowledge, and strategic thinking while remaining accessible to newer players.
-
-### 🔄 **High Replayability** 
-Every draft feels fresh thanks to carefully balanced card interactions and multiple viable paths to victory.
-
-### 🏆 **Tournament Ready**
-All cubes are designed with competitive play in mind, providing engaging games that test players' skills fairly.
-
----
-
-## Cube Maintenance
-
-We take pride in maintaining our cubes to the highest standards:
-
-- **Regular Updates**: Cubes are regularly reviewed and updated with new cards and balance changes
-- **Community Input**: We welcome feedback from players to improve our cube designs
-- **Professional Sleeves**: All cards are professionally sleeved and maintained
-- **Transparent Lists**: Complete cube lists are available for study and preparation
 
 *Want to suggest cards or provide feedback on our cubes? Check out our [Contact page](contact.qmd) for ways to get involved!*
