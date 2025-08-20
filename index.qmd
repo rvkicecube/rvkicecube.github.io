@@ -50,14 +50,14 @@ Reykjavík Ice Cube is a Magic: The Gathering cube draft event series held in Re
 ## Upcoming Events
 
 ::: {.featured-event}
-### CubeCon Reykjavík 2025
+### Reykjavík IceCube 2025
 
 -   **Date**: October 11th, 2025
 -   **Location**: Next Level Gaming, Egilshöll
 -   **Format**: Full Day Multi-Format Event
 -   **Entry**: 6000 ISK
 
-*Our inaugural CubeCon event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!*
+*Our inaugural Reykjavík IceCube event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!*
 
 [View Full Event Details](events.qmd){.btn .btn-primary}
 :::
