@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rvkicecube.is/index.html</loc>
-    <lastmod>2025-08-20T15:20:42.465Z</lastmod>
+    <loc>https://rvkicecube.is/about.html</loc>
+    <lastmod>2025-08-20T21:47:38.378Z</lastmod>
   </url>
   <url>
-    <loc>https://rvkicecube.is/events.html</loc>
-    <lastmod>2025-08-20T15:28:41.447Z</lastmod>
+    <loc>https://rvkicecube.is/cubes.html</loc>
+    <lastmod>2025-08-10T18:08:34.372Z</lastmod>
   </url>
   <url>
     <loc>https://rvkicecube.is/contact.html</loc>
     <lastmod>2025-08-20T15:21:06.454Z</lastmod>
   </url>
   <url>
-    <loc>https://rvkicecube.is/cubes.html</loc>
-    <lastmod>2025-08-10T18:08:34.372Z</lastmod>
+    <loc>https://rvkicecube.is/events.html</loc>
+    <lastmod>2025-08-20T15:38:08.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rvkicecube.is/index.html</loc>
+    <lastmod>2025-08-20T21:47:23.262Z</lastmod>
   </url>
 </urlset>

@@ -96,6 +96,69 @@ $transition-slow: all 0.3s ease !default;
 // Override Quarto's automatic body padding for navbar
 body {
   padding-top: 0 !important;
+  margin: 0 !important;
+}
+
+// Restore normal spacing for non-landing pages
+body:not(:has(.hero-event)) {
+  padding-top: 0;
+  margin: 0;
+  
+  .quarto-container {
+    margin: auto;
+    padding: inherit;
+    max-width: inherit;
+  }
+
+  #quarto-content {
+    margin: inherit;
+    padding: inherit;
+  }
+}
+
+// Special styling for navbar-less pages (like landing page)
+.quarto-title-banner {
+  display: none;
+}
+
+// Ensure full viewport coverage on landing page
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+// Landing page specific styling - only apply when .hero-event is present
+body:has(.hero-event) {
+  margin: 0 !important;
+  padding: 0 !important;
+  
+  .quarto-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+
+  #quarto-content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .quarto-layout-panel, 
+  .quarto-layout-row,
+  .page-layout-full,
+  main,
+  .main,
+  article,
+  #quarto-document-content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .column-screen {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }
 
 // Mixins for gradients and effects
@@ -221,9 +284,13 @@ body {
   background-color: $snow-white !important;
   border-bottom: 2px solid $glacier-blue;
   box-shadow: none;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   
   .navbar-brand {
     color: $deep-blue !important;
+    font-weight: 700;
     
     &:hover, &:focus {
       color: $glacier-blue !important;
@@ -260,7 +327,7 @@ body {
     border-color: $glacier-blue !important;
     
     .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='#{$deep-blue}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23#{str-slice(inspect($deep-blue), 2)}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
     }
   }
 }
@@ -526,6 +593,21 @@ table {
   }
 }
 
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-5px) rotate(-3deg);
+  }
+}
+
 .fade-in {
   animation: fadeIn 0.6s ease-out;
 }
@@ -547,6 +629,153 @@ table {
   position: relative;
   overflow: hidden;
   
+  // Hero event variant - larger vertical space
+  &.hero-event {
+    padding: 4rem 2rem;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      linear-gradient(135deg, rgba($deep-blue, 0.85) 0%, rgba($glacier-blue, 0.85) 100%),
+      url('images/RIC-ICE-v02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    .event-content {
+      max-width: 900px;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .event-logo {
+      margin-bottom: 2rem;
+      transition: $transition-base;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+      
+      &:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+      }
+    }
+    
+    .event-title {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .event-subtitle {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    
+    .event-description {
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    
+    // Floating cube decorations
+    .hero-decorations {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+      
+      .floating-cube {
+        position: absolute;
+        opacity: 0.1;
+        width: 60px;
+        height: 60px;
+        animation: float 6s ease-in-out infinite;
+        filter: brightness(2);
+        
+        &.cube-1 {
+          top: 15%;
+          left: 10%;
+          animation-delay: 0s;
+          animation-duration: 8s;
+        }
+        
+        &.cube-2 {
+          top: 20%;
+          right: 15%;
+          animation-delay: 2s;
+          animation-duration: 7s;
+        }
+        
+        &.cube-3 {
+          bottom: 25%;
+          left: 15%;
+          animation-delay: 4s;
+          animation-duration: 9s;
+        }
+        
+        &.cube-4 {
+          top: 60%;
+          right: 25%;
+          animation-delay: 1s;
+          animation-duration: 10s;
+          width: 45px;
+          height: 45px;
+          opacity: 0.08;
+        }
+        
+        &.cube-5 {
+          top: 35%;
+          left: 5%;
+          animation-delay: 3s;
+          animation-duration: 8s;
+          width: 50px;
+          height: 50px;
+          opacity: 0.12;
+        }
+        
+        &.cube-6 {
+          bottom: 15%;
+          right: 10%;
+          animation-delay: 5s;
+          animation-duration: 11s;
+          width: 40px;
+          height: 40px;
+          opacity: 0.07;
+        }
+        
+        &.cube-7 {
+          top: 75%;
+          left: 25%;
+          animation-delay: 2.5s;
+          animation-duration: 7s;
+          width: 55px;
+          height: 55px;
+          opacity: 0.09;
+        }
+        
+        &.cube-8 {
+          top: 10%;
+          right: 5%;
+          animation-delay: 6s;
+          animation-duration: 12s;
+          width: 35px;
+          height: 35px;
+          opacity: 0.06;
+        }
+      }
+    }
+  }
+  
   // Subtle pattern overlay
   &::before {
     content: "";
@@ -559,6 +788,15 @@ table {
       radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
       radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
     pointer-events: none;
+    z-index: 1;
+  }
+  
+  // Enhanced overlay for hero event variant
+  &.hero-event::before {
+    background-image: 
+      radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.15) 0%, transparent 60%),
+      radial-gradient(circle at 70% 30%, rgba(14, 165, 233, 0.2) 0%, transparent 60%),
+      linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.03) 50%, transparent 70%);
   }
   
   .event-content {
@@ -667,6 +905,7 @@ table {
 
 // Responsive design
 @media (max-width: 768px) {
+  
   .hero-banner {
     padding: 2rem 1rem;
     margin: 0;
@@ -711,6 +950,40 @@ table {
   .event-banner {
     padding: 1.5rem 1rem;
     margin: 0 0 2rem 0;
+    
+    &.hero-event {
+      padding: 3rem 1rem;
+      height: 100vh;
+      min-height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      
+      .event-logo {
+        width: 150px !important;
+        margin-bottom: 1.5rem;
+      }
+      
+      .event-title {
+        font-size: 2.5rem;
+      }
+      
+      .event-subtitle {
+        font-size: 1.1rem;
+      }
+      
+      .event-description {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      
+      // Hide floating cubes on mobile for performance
+      .hero-decorations {
+        display: none;
+      }
+    }
     
     .event-title {
       font-size: 2rem;

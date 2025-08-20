@@ -1,21 +1,14 @@
 ---
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 toc: false
+navbar: false
 ---
 
-::: {.hero-banner .column-screen}
-![](images/logo_white-bg.png){fig-alt="Reykjavík Ice Cube Logo" width="200px" .hero-logo}
-
-# Reykjavík Ice Cube ❄️
-
-## Reykjavík's Cube Draft Festival
-
-Draft carefully curated Magic cards with passionate players in Iceland's capital.
-:::
-
-::: {.event-banner .column-screen}
+::: {.event-banner .column-screen .hero-event}
 ::: {.event-content}
+![](images/RIC25-badge-white.png){fig-alt="Reykjavík Ice Cube 2025 Logo" width="200px" .event-logo}
+
 ::: {.event-date}
 October 11th, 2025 ❄️
 :::
@@ -28,71 +21,21 @@ Reykjavík Ice Cube 2025
 Join us for our first Reykjavík Ice Cube event at Next Level Gaming, Egilshöll. A full day of Magic featuring multiple cube formats and culminating in a vintage cube Top 8!
 :::
 
+::: {.event-description}
+Draft carefully curated Magic cards with passionate players in Iceland's capital.
+:::
+
 [Learn More & Register](events.qmd){.event-cta}
+
+::: {.hero-decorations}
+![](images/RIC-Cube-white.png){.floating-cube .cube-1}
+![](images/RIC-Cube-white.png){.floating-cube .cube-2}
+![](images/RIC-Cube-white.png){.floating-cube .cube-3}
+![](images/RIC-Cube-white.png){.floating-cube .cube-4}
+![](images/RIC-Cube-white.png){.floating-cube .cube-5}
+![](images/RIC-Cube-white.png){.floating-cube .cube-6}
+![](images/RIC-Cube-white.png){.floating-cube .cube-7}
+![](images/RIC-Cube-white.png){.floating-cube .cube-8}
 :::
 :::
-
-::: {.page-layout .column-page}
-::: {.main-content}
-
-## What is Reykjavík Ice Cube?
-
-Reykjavík Ice Cube is a Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players to experience carefully curated cube environments that showcase the best of Magic's history with a personal touch.
-
-### 🎯 Our Mission
-
--   **Foster Community**: Build a welcoming and inclusive environment for Magic players of all skill levels
--   **Celebrate the Game**: Showcase the depth and complexity of Magic through expertly designed cube experiences
--   **Promote Competition**: Provide competitive yet friendly tournaments
--   **Share Knowledge**: Help players improve their draft and gameplay skills
-
-::: {.events-section}
-## Upcoming Events
-
-::: {.featured-event}
-### Reykjavík IceCube 2025
-
--   **Date**: October 11th, 2025
--   **Location**: Next Level Gaming, Egilshöll
--   **Format**: Full Day Multi-Format Event
--   **Entry**: 6000 ISK
-
-*Our inaugural Reykjavík IceCube event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!*
-
-[View Full Event Details](events.qmd){.btn .btn-primary}
-:::
-
-
--------------------------------------------------------------------------
-
-### Regular Cube Drafts
-
-We host regular cube drafts throughout the month, typically on Thursday evenings. Our events rotate between two convenient locations:
-
-- **Next Level Gaming, Egilshöll**
-- **Nexus, Glæsibær**
-
-Each draft features a different cube experience, from balanced beginner-friendly environments to high-powered vintage cubes. Pre-registration is recommended but walk-ins are welcome when space permits.
-
-*For announcements on upcoming events and to reserve your spot, [join our Facebook group](https://www.facebook.com/groups/mtgkubbur/).*
-
-:::
-
-
-## Getting Started
-
-New to cube draft? No problem! Here's what you need to know:
-
--   **No collection required** - All cards are provided
--   **All skill levels welcome** - From beginners to veterans
--   **Regular events** - Thursday evenings plus special tournaments
-
-Ready to join? [Visit our Facebook group](https://www.facebook.com/groups/mtgkubbur/) to stay updated on events!
-
-:::
-
-::: {.banner-sidebar}
-![](images/photo-of-banner.png){fig-alt="Reykjavík Ice Cube Event Banner" .sidebar-banner}
-:::
-
 :::

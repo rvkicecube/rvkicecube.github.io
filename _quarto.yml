@@ -10,8 +10,8 @@ website:
   navbar:
     search: true
     left:
-      - href: index.qmd
-        text: Home
+      - href: about.qmd
+        text: About
       - href: cubes.qmd
         text: Cubes
       - href: events.qmd

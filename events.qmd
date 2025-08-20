@@ -62,7 +62,7 @@ This will be our very first Reykjavík IceCube event! Join us for the launch of 
 1. **Seat Assignment**: Random seating for each pod (8 players)
 2. **Pack Opening**: Each player receives 3 booster packs (15 cards each)
 3. **Drafting**: Standard booster draft rules - pick 1, pass the rest
-4. **Deck Building**: 40-card minimum deck construction (30 minutes)
+4. **Deck Building**: 40-card minimum deck construction
 
 ## Venue Information
 

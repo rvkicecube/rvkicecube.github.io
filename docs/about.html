@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Our Cubes – Reykjavík Ice Cube</title>
+<title>About Reykjavík Ice Cube – Reykjavík Ice Cube</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,70 +67,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-cube-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-name','listing-creator','listing-image','listing-description','listing-power_level','listing-card_count','listing-format','listing-url',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-name","listing-creator","listing-image","listing-description","listing-power_level","listing-card_count","listing-format","listing-url"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-cube-listing'] = new List('listing-cube-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -150,11 +90,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cubes.html" aria-current="page"> 
+    <a class="nav-link" href="./cubes.html"> 
 <span class="menu-text">Cubes</span></a>
   </li>  
   <li class="nav-item">
@@ -183,22 +123,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#cube-collection" id="toc-cube-collection" class="nav-link active" data-scroll-target="#cube-collection">Cube Collection</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Our Cubes</h1>
-<p class="subtitle lead">Discover the carefully curated cube environments at Reykjavík Ice Cube</p>
+<h1 class="title">About Reykjavík Ice Cube</h1>
 </div>
 
 
@@ -215,323 +146,53 @@ window.Quarto = {
 </header>
 
 
-<section id="cube-collection" class="level2">
-<h2 class="anchored" data-anchor-id="cube-collection">Cube Collection</h2>
-<p>Welcome to our cube showcase! Each cube represents countless hours of careful curation and testing to provide the most engaging draft experiences possible. From balanced environments perfect for learning to high-powered vintage cubes for experienced players, we offer something for every Magic enthusiast.</p>
-<div id="listing-cube-listing" class="quarto-listing quarto-listing-container-custom">
-<div class="cubes-grid">
-
-  <div class="cube-card">
-    
-    <div class="cube-image">
-      <img src="https://cards.scryfall.io/art_crop/front/1/c/1cfdd410-391b-4b71-8139-f5a30653097a.jpg?1562259658" alt="Modern Cube" class="cube-art">
-    </div>
-    
-    
-    <div class="cube-header">
-      <div class="cube-title-section">
-        <h3 class="cube-name anchored">Modern Cube</h3>
-        
-        <p class="cube-creator">Created by <strong>Diddi</strong></p>
-        
-      </div>
-      <div class="cube-badges">
-        <span class="badge power-level medium">Medium Power</span>
-        
-      </div>
-    </div>
-    
-    <div class="cube-description">
-      <p>Do you find yourself thinking 'I wish this card was still playable in modern'? This is the cube for you!</p>
-    </div>
-    
-    <div class="cube-details">
-      <div class="detail-row">
-        <span class="detail-label">📦 Cards:</span>
-        <span class="detail-value">540</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">🎭 Format:</span>
-        <span class="detail-value">Modern</span>
-      </div>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="cube-actions">
-      <a href="https://cubecobra.com/cube/overview/563f11e1-1852-42db-9651-506ca3c67691" target="_blank" rel="noopener noreferrer" class="cube-link">
-        View on CubeCobra →
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="cube-card">
-    
-    <div class="cube-image">
-      <img src="https://cards.scryfall.io/art_crop/front/3/d/3d946df5-f206-4241-bb55-97db67dc793c.jpg?1562546549" alt="Turbo Cube" class="cube-art">
-    </div>
-    
-    
-    <div class="cube-header">
-      <div class="cube-title-section">
-        <h3 class="cube-name anchored">Turbo Cube</h3>
-        
-        <p class="cube-creator">Created by <strong>Bóas</strong></p>
-        
-      </div>
-      <div class="cube-badges">
-        <span class="badge power-level very high">Very High Power</span>
-        
-      </div>
-    </div>
-    
-    <div class="cube-description">
-      <p>In this cube everything is 3 off (including abilities). This leads to a lot of interesting interactions and a lot of fun games.</p>
-    </div>
-    
-    <div class="cube-details">
-      <div class="detail-row">
-        <span class="detail-label">📦 Cards:</span>
-        <span class="detail-value">639</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">🎭 Format:</span>
-        <span class="detail-value">Eternal</span>
-      </div>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="cube-actions">
-      <a href="https://cubecobra.com/cube/overview/8bac27ad-a191-4dfe-8a7d-a705c9e1b576" target="_blank" rel="noopener noreferrer" class="cube-link">
-        View on CubeCobra →
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="cube-card">
-    
-    <div class="cube-image">
-      <img src="https://cards.scryfall.io/art_crop/front/b/7/b7320233-1c83-4f61-8c08-cc8361867256.jpg?1591228265" alt="Synergy Cube" class="cube-art">
-    </div>
-    
-    
-    <div class="cube-header">
-      <div class="cube-title-section">
-        <h3 class="cube-name anchored">Synergy Cube</h3>
-        
-        <p class="cube-creator">Created by <strong>Tómas</strong></p>
-        
-      </div>
-      <div class="cube-badges">
-        <span class="badge power-level medium">Medium Power</span>
-        
-      </div>
-    </div>
-    
-    <div class="cube-description">
-      <p>In this cube synergistic decks should beat out those trying to go for good-stuff strategies</p>
-    </div>
-    
-    <div class="cube-details">
-      <div class="detail-row">
-        <span class="detail-label">📦 Cards:</span>
-        <span class="detail-value">417</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">🎭 Format:</span>
-        <span class="detail-value">Eternal</span>
-      </div>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="cube-actions">
-      <a href="https://cubecobra.com/cube/overview/SynergyNotSpeed" target="_blank" rel="noopener noreferrer" class="cube-link">
-        View on CubeCobra →
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="cube-card">
-    
-    <div class="cube-image">
-      <img src="https://cards.scryfall.io/art_crop/front/2/d/2dd41293-d7c8-4422-9f0c-b3e96350f5c9.jpg?1559592144" alt="Bolti (Vintage Cube)" class="cube-art">
-    </div>
-    
-    
-    <div class="cube-header">
-      <div class="cube-title-section">
-        <h3 class="cube-name anchored">Bolti (Vintage Cube)</h3>
-        
-        <p class="cube-creator">Created by <strong>Hjalti</strong></p>
-        
-      </div>
-      <div class="cube-badges">
-        <span class="badge power-level vintage">Vintage Power</span>
-        
-      </div>
-    </div>
-    
-    <div class="cube-description">
-      <p>Do you like vintage cube? Do you like Hjalti? Then this is the cube for you!</p>
-    </div>
-    
-    <div class="cube-details">
-      <div class="detail-row">
-        <span class="detail-label">📦 Cards:</span>
-        <span class="detail-value">542</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">🎭 Format:</span>
-        <span class="detail-value">Eternal</span>
-      </div>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="cube-actions">
-      <a href="https://cubecobra.com/cube/overview/bolti-mtgovintage" target="_blank" rel="noopener noreferrer" class="cube-link">
-        View on CubeCobra →
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="cube-card">
-    
-    <div class="cube-image">
-      <img src="https://cards.scryfall.io/art_crop/front/3/d/3d19d950-9e63-4b15-8531-f4b16f5b82fa.jpg?1562828211" alt="Binni's Cube" class="cube-art">
-    </div>
-    
-    
-    <div class="cube-header">
-      <div class="cube-title-section">
-        <h3 class="cube-name anchored">Binni's Cube</h3>
-        
-        <p class="cube-creator">Created by <strong>Binni</strong></p>
-        
-      </div>
-      <div class="cube-badges">
-        <span class="badge power-level unknown">Unknown Power</span>
-        
-      </div>
-    </div>
-    
-    <div class="cube-description">
-      <p>This cube was built by Tómas using leftover and beloved cards from Binni's collection as a gift. Is it a cube? Yes. What does it do? I don't know.</p>
-    </div>
-    
-    <div class="cube-details">
-      <div class="detail-row">
-        <span class="detail-label">📦 Cards:</span>
-        <span class="detail-value">360</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">🎭 Format:</span>
-        <span class="detail-value">Eternal</span>
-      </div>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="cube-actions">
-      <a href="https://cubecobra.com/cube/overview/7e6323d1-a602-49c8-ae2e-2195d9c2eccb" target="_blank" rel="noopener noreferrer" class="cube-link">
-        View on CubeCobra →
-      </a>
-    </div>
-    
-  </div>
-
-  <div class="cube-card">
-    
-    <div class="cube-image">
-      <img src="https://cards.scryfall.io/art_crop/front/3/c/3c2789fb-a263-4207-8a56-4eeb015a024c.jpg?1576383721" alt="Nerva's Cube" class="cube-art">
-    </div>
-    
-    
-    <div class="cube-header">
-      <div class="cube-title-section">
-        <h3 class="cube-name anchored">Nerva's Cube</h3>
-        
-        <p class="cube-creator">Created by <strong>Tommi</strong></p>
-        
-      </div>
-      <div class="cube-badges">
-        <span class="badge power-level high">High Power</span>
-        
-      </div>
-    </div>
-    
-    <div class="cube-description">
-      <p>This is a Legacy-power cube. Is Elder Deep Fiend even in this cube anymore?</p>
-    </div>
-    
-    <div class="cube-details">
-      <div class="detail-row">
-        <span class="detail-label">📦 Cards:</span>
-        <span class="detail-value">473</span>
-      </div>
-      <div class="detail-row">
-        <span class="detail-label">🎭 Format:</span>
-        <span class="detail-value">Legacy</span>
-      </div>
-      
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="cube-actions">
-      <a href="https://cubecobra.com/cube/overview/nerva" target="_blank" rel="noopener noreferrer" class="cube-link">
-        View on CubeCobra →
-      </a>
-    </div>
-    
-  </div>
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p><em>Want to suggest cards or provide feedback on our cubes? Check out our <a href="./contact.html">Contact page</a> for ways to get involved!</em></p>
-
+<section id="what-is-reykjavík-ice-cube" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-reykjavík-ice-cube">What is Reykjavík Ice Cube?</h2>
+<p>Reykjavík Ice Cube is a Magic: The Gathering cube draft event series held in Reykjavík, Iceland. We bring together passionate players to experience carefully curated cube environments that showcase the best of Magic’s history with a personal touch.</p>
+<section id="our-mission" class="level3">
+<h3 class="anchored" data-anchor-id="our-mission">🎯 Our Mission</h3>
+<ul>
+<li><strong>Foster Community</strong>: Build a welcoming and inclusive environment for Magic players of all skill levels</li>
+<li><strong>Celebrate the Game</strong>: Showcase the depth and complexity of Magic through expertly designed cube experiences</li>
+<li><strong>Promote Competition</strong>: Provide competitive yet friendly tournaments</li>
+<li><strong>Share Knowledge</strong>: Help players improve their draft and gameplay skills</li>
+</ul>
+</section>
+</section>
+<section id="upcoming-events" class="level2 events-section">
+<h2 class="anchored" data-anchor-id="upcoming-events">Upcoming Events</h2>
+<section id="reykjavík-icecube-2025" class="level3 featured-event">
+<h3 class="anchored" data-anchor-id="reykjavík-icecube-2025">Reykjavík IceCube 2025</h3>
+<ul>
+<li><strong>Date</strong>: October 11th, 2025</li>
+<li><strong>Location</strong>: Next Level Gaming, Egilshöll</li>
+<li><strong>Format</strong>: Full Day Multi-Format Event</li>
+<li><strong>Entry</strong>: 6000 ISK</li>
+</ul>
+<p><em>Our inaugural Reykjavík IceCube event is here! Join us for a full day of cube drafting culminating in a vintage cube Top 8!</em></p>
+<p><a href="./events.html" class="btn btn-primary">View Full Event Details</a></p>
+</section>
+<hr>
+<section id="regular-cube-drafts" class="level3">
+<h3 class="anchored" data-anchor-id="regular-cube-drafts">Regular Cube Drafts</h3>
+<p>We host regular cube drafts throughout the month, typically on Thursday evenings. Our events rotate between two convenient locations:</p>
+<ul>
+<li><strong>Next Level Gaming, Egilshöll</strong></li>
+<li><strong>Nexus, Glæsibær</strong></li>
+</ul>
+<p>Each draft features a different cube experience, from balanced beginner-friendly environments to high-powered vintage cubes. Pre-registration is recommended but walk-ins are welcome when space permits.</p>
+<p><em>For announcements on upcoming events and to reserve your spot, <a href="https://www.facebook.com/groups/mtgkubbur/">join our Facebook group</a>.</em></p>
+</section>
+</section>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
+<p>New to cube draft? No problem! Here’s what you need to know:</p>
+<ul>
+<li><strong>No collection required</strong> - All cards are provided</li>
+<li><strong>All skill levels welcome</strong> - From beginners to veterans</li>
+<li><strong>Regular events</strong> - Thursday evenings plus special tournaments</li>
+</ul>
+<p>Ready to join? <a href="https://www.facebook.com/groups/mtgkubbur/">Visit our Facebook group</a> to stay updated on events!</p>
 
 
 </section>
