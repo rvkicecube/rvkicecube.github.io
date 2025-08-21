@@ -94,25 +94,33 @@ $transition-slow: all 0.3s ease !default;
 /*-- scss:rules --*/
 
 // Override Quarto's automatic body padding for navbar
-body {
+// Only remove padding for landing page, keep it for sub-pages
+body:has(.hero-event) {
   padding-top: 0 !important;
   margin: 0 !important;
 }
 
 // Restore normal spacing for non-landing pages
+// Add proper spacing for fixed navbar
 body:not(:has(.hero-event)) {
   padding-top: 0;
   margin: 0;
   
-  .quarto-container {
-    margin: auto;
-    padding: inherit;
-    max-width: inherit;
-  }
-
   #quarto-content {
+    padding-top: 2rem;
     margin: inherit;
-    padding: inherit;
+  }
+  
+  .quarto-title-block {
+    margin-top: 1rem;
+  }
+  
+  // Ensure H1 headers have proper spacing from navbar
+  main h1, 
+  .content h1,
+  #title-block-header h1 {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
   }
 }
 
@@ -952,7 +960,7 @@ table {
     margin: 0 0 2rem 0;
     
     &.hero-event {
-      padding: 3rem 1rem;
+      padding: 2rem 1rem 1rem 1rem;
       height: 100vh;
       min-height: 100vh;
       position: fixed;
@@ -960,23 +968,49 @@ table {
       left: 0;
       right: 0;
       bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .event-content {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 0.5rem;
+      }
       
       .event-logo {
-        width: 150px !important;
+        width: 180px !important;
         margin-bottom: 1.5rem;
+      }
+      
+      .event-date {
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
       }
       
       .event-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        line-height: 1.1;
       }
       
       .event-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.3;
       }
       
       .event-description {
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
+        font-size: 0.9rem;
+        margin-bottom: 1.2rem;
+        line-height: 1.3;
+      }
+      
+      .event-cta {
+        padding: 0.65rem 1.2rem;
+        font-size: 0.85rem;
+        margin: 0 auto;
+        display: inline-block;
       }
       
       // Hide floating cubes on mobile for performance
@@ -1033,6 +1067,50 @@ table {
     
     .cube-image {
       height: 120px;
+    }
+  }
+}
+
+// Additional breakpoint for very small screens (iPhone SE, etc)
+@media (max-width: 480px) {
+  .event-banner.hero-event {
+    padding: 1.5rem 0.75rem 1rem 0.75rem;
+    
+    .event-content {
+      padding: 0 0.25rem;
+    }
+    
+    .event-logo {
+      width: 140px !important;
+      margin-bottom: 1rem;
+    }
+    
+    .event-date {
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+    }
+    
+    .event-title {
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
+      line-height: 1.05;
+    }
+    
+    .event-subtitle {
+      font-size: 0.9rem;
+      margin-bottom: 0.6rem;
+      line-height: 1.25;
+    }
+    
+    .event-description {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      line-height: 1.25;
+    }
+    
+    .event-cta {
+      padding: 0.6rem 1rem;
+      font-size: 0.8rem;
     }
   }
 }
