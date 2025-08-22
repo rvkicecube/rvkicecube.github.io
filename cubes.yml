@@ -51,3 +51,19 @@
   card_count: 473
   format: "Legacy"
   url: "https://cubecobra.com/cube/overview/nerva"
+- name: "Bar Cube"
+  creator: "Tommi"
+  image: "https://cards.scryfall.io/art_crop/front/f/1/f10d82f7-7759-457e-a9bb-f9a5bd968f82.jpg?1562795279"
+  description: "This is a sleeve-less cube made to be played at bars. No counters, no tokens, no nothing. Just cards and fun."
+  power_level: "Medium"
+  card_count: 384
+  format: "Legacy"
+  url: "https://cubecobra.com/cube/overview/FinalDestination"
+- name: "Pauper Cube"
+  creator: "Diddi"
+  image: "https://cards.scryfall.io/art_crop/front/4/f/4f3deefe-28bc-4e45-a0a0-ab03167e2e81.jpg?1561942156"
+  description: "This is a pauper cube, i.e. it contains only commons."
+  power_level: "Low"
+  card_count: 384
+  format: "Legacy"
+  url: "https://cubecobra.com/cube/overview/thepaupercube"
