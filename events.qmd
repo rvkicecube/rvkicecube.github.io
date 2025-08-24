@@ -1,9 +1,3 @@
----
-title: "Events"
-subtitle: "Upcoming and past IceCube Reykjavík tournaments"
----
-
-## Upcoming Events
 
 ::: {.event-card}
 ### 🧊 Reykjavík IceCube 2025
