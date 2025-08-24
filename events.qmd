@@ -11,8 +11,8 @@ subtitle: "Upcoming and past IceCube Reykjavík tournaments"
 **Time:** Full Day Event (details below)  
 **Location:** Next Level Gaming, Egilshöll  
 **Format:** Multi-format cube extravaganza  
-**Entry Fee:** 6000 ISK  
-**Prize Support:** Prizes for top placing players
+**Entry Fee:** 6000 ISK  (4000 ISK when registering, 2000 ISK at the door)
+**Prize Support:** Prizes for top placing players as well as random draws for other prizes
 
 This will be our very first Reykjavík IceCube event! Join us for the launch of Iceland's premier cube draft community. A full day of cube drafting across multiple formats - this is what we've been building towards!
 
@@ -87,7 +87,6 @@ Next Level Gaming is Reykjavík's premier gaming destination, offering the perfe
 
 ### Tournament Rules
 - **REL**: Regular Rules Enforcement Level
-- **Judges**: Experienced judges available for questions
 - **Deck Checks**: Random deck checks may occur
 - **No Outside Cards**: Only cards from the current draft may be used
 
