@@ -37,6 +37,7 @@
   power_level: "Vintage"
   card_count: 542
   format: "Eternal"
+  category: "playoff"
   url: "https://cubecobra.com/cube/overview/bolti-mtgovintage"
 - name: "Tommi's Legacy Cube"
   creator: "Tommi"
