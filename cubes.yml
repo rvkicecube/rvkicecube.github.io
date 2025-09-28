@@ -3,13 +3,14 @@
 # Each cube entry should include: name, description, power_level, card_count, archetypes, and other relevant details
 
 # Example cube entry - replace with your actual cube data:
-- name: "Modern Cube"
+- name: "Modern Cube (Meta Memories)"
   creator: "Diddi"
   image: "https://cards.scryfall.io/art_crop/front/1/c/1cfdd410-391b-4b71-8139-f5a30653097a.jpg?1562259658"
   description: "Do you find yourself thinking 'I wish this card was still playable in modern'? This is the cube for you!"
   power_level: "Medium"
   card_count: 540
   format: "Modern"
+  category: "confirmed"
   url: "https://cubecobra.com/cube/overview/563f11e1-1852-42db-9651-506ca3c67691"
 - name: "Turbo Cube"
   creator: "Bóas"
@@ -18,6 +19,7 @@
   power_level: "Very High"
   card_count: 639
   format: "Eternal"
+  category: "confirmed"
   url: "https://cubecobra.com/cube/overview/8bac27ad-a191-4dfe-8a7d-a705c9e1b576"
 - name: "Synergy Cube"
   creator: "Tómas"
@@ -26,6 +28,7 @@
   power_level: "Medium"
   card_count: 417
   format: "Eternal"
+  category: "confirmed"
   url: "https://cubecobra.com/cube/overview/SynergyNotSpeed"
 - name: "Bolti (Vintage Cube)"
   creator: "Hjalti"
@@ -35,15 +38,7 @@
   card_count: 542
   format: "Eternal"
   url: "https://cubecobra.com/cube/overview/bolti-mtgovintage"
-- name: "Binni's Cube"
-  creator: "Binni"
-  image: "https://cards.scryfall.io/art_crop/front/3/d/3d19d950-9e63-4b15-8531-f4b16f5b82fa.jpg?1562828211"
-  description: "This cube was built by Tómas using leftover and beloved cards from Binni's collection as a gift. Is it a cube? Yes. What does it do? I don't know."
-  power_level: "Unknown"
-  card_count: 360
-  format: "Eternal"
-  url: "https://cubecobra.com/cube/overview/7e6323d1-a602-49c8-ae2e-2195d9c2eccb"
-- name: "Nerva's Cube"
+- name: "Tommi's Legacy Cube"
   creator: "Tommi"
   image: "https://cards.scryfall.io/art_crop/front/3/c/3c2789fb-a263-4207-8a56-4eeb015a024c.jpg?1576383721"
   description: "This is a Legacy-power cube. Is Elder Deep Fiend even in this cube anymore?"
@@ -66,4 +61,5 @@
   power_level: "Low"
   card_count: 384
   format: "Legacy"
+  category: "confirmed"
   url: "https://cubecobra.com/cube/overview/thepaupercube"
