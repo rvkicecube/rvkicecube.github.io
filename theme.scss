@@ -1036,6 +1036,30 @@ table {
   .cubes-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    
+    &.playoff-grid {
+      .playoff-cube {
+        flex-direction: column;
+        
+        .cube-image {
+          width: 100%;
+          height: 200px;
+          border-radius: $border-radius-lg $border-radius-lg 0 0;
+          
+          .cube-art {
+            min-height: 200px;
+          }
+        }
+        
+        .cube-content {
+          padding: 1.5rem;
+        }
+        
+        .cube-header .cube-name {
+          font-size: 1.4rem;
+        }
+      }
+    }
   }
   
   .cube-card {
@@ -1124,12 +1148,14 @@ table {
   
   &.playoff-grid {
     grid-template-columns: 1fr;
-    max-width: 600px;
-    margin: 2rem auto;
+    max-width: 100%;
+    margin: 2rem 0;
     
     .playoff-cube {
       border: 3px solid $deep-blue;
       box-shadow: 0 4px 20px rgba($deep-blue, 0.2);
+      flex-direction: row;
+      align-items: stretch;
       
       &::before {
         background: linear-gradient(90deg, $deep-blue 0%, $glacier-blue 50%, $deep-blue 100%);
@@ -1142,9 +1168,35 @@ table {
         border-color: $glacier-blue;
       }
       
-      .cube-header .cube-name {
-        font-size: 1.4rem;
-        color: $deep-blue;
+      .cube-image {
+        flex-shrink: 0;
+        width: 300px;
+        height: auto;
+        border-radius: $border-radius-lg 0 0 $border-radius-lg;
+        
+        .cube-art {
+          width: 100%;
+          height: 100%;
+          min-height: 400px;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+      
+      .cube-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+      }
+      
+      .cube-header {
+        padding-top: 0;
+        
+        .cube-name {
+          font-size: 1.6rem;
+          color: $deep-blue;
+        }
       }
       
       .cube-actions .cube-link {
